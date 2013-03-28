@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- using: for title right button -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/mm_title_btn_focused" android:state_focused="true"/>
+    <item android:drawable="@drawable/mm_title_btn_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/mm_title_btn_pressed" android:state_selected="true"/>
+    <item android:drawable="@drawable/mm_title_btn_normal"/>
+
+</selector>

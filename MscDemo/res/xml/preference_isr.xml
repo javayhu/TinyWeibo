@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/preference_title_isr">
+		<!-- <ListPreference android:key="@string/preference_key_isr_engine" android:title="@string/preference_title_isr_engine" 
+			android:entries="@array/preference_entries_isr_engine" android:entryValues="@array/preference_values_isr_engine" 
+			android:defaultValue="@string/preference_default_isr_engine" android:dialogTitle="@string/preference_dialog_title_isr_engine" 
+			/> -->
+		<ListPreference
+			android:key="@string/preference_key_isr_rate"
+			android:title="@string/preference_title_isr_rate"
+			android:entries="@array/preference_entries_isr_rate"
+			android:entryValues="@array/preference_values_isr_rate"
+			android:defaultValue="@string/preference_default_isr_rate"
+			android:dialogTitle="@string/preference_dialog_title_isr_rate" />
+		<!-- <CheckBoxPreference android:key="@string/preference_key_isr_vad" android:title="@string/preference_title_isr_vad" 
+			android:defaultValue="true" /> -->
+	</PreferenceCategory>
+</PreferenceScreen>

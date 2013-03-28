@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style
+		name="SpeechApiTheme"
+		parent="@android:style/Theme">
+		<item
+			name="android:windowTitleStyle">@style/SpeechApiWindowTitle</item>
+		<item
+			name="android:windowTitleSize">49dip</item>
+		<item
+			name="android:windowTitleBackgroundStyle">@style/SpeechApiWindowTitleBackground</item>
+		<item
+			name="android:windowBackground">@drawable/window_bg</item>
+		<item
+			name="android:buttonStyle">@style/SpeechApiButton</item>
+	</style>
+	<style
+		name="SpeechApiLauncherTheme"
+		parent="@android:style/Theme">
+		<item
+			name="android:windowNoTitle">true</item>
+		<item
+			name="android:windowBackground">@drawable/window_bg</item>
+	</style>
+	<style
+		name="SpeechApiPreferenceTheme"
+		parent="@android:style/Theme">
+		<item
+			name="android:windowTitleStyle">@style/SpeechApiWindowTitle</item>
+		<item
+			name="android:windowTitleSize">36dip</item>
+		<item
+			name="android:preferenceCategoryStyle">@style/SpeechApiPreferenceCategory</item>
+	</style>
+</resources>

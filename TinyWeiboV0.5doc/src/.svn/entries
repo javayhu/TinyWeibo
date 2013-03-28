@@ -1,0 +1,124 @@
+8
+
+dir
+152
+https://yinger/svn/sinaweibo/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android
+https://yinger/svn/sinaweibo
+
+
+
+2012-12-14T07:28:42.907557Z
+130
+hjw
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+43fa8b1a-111b-8443-bcdf-a79ce9fb859e
+
+http
+dir
+
+WeiboDialogError.java
+file
+
+
+
+
+2012-12-14T07:28:03.432300Z
+decddc13e97655ef8739e5e37efa3a7c
+2012-12-14T07:28:42.907557Z
+130
+hjw
+
+WeiboException.java
+file
+
+
+
+
+2012-12-14T07:28:03.269290Z
+71a5fef5267de2869d05acfc71501412
+2012-12-14T07:28:42.907557Z
+130
+hjw
+
+WeiboDialog.java
+file
+
+
+
+
+2012-12-14T07:28:05.266404Z
+55c07347981e43e9307866d44213d7ad
+2012-12-14T07:28:42.907557Z
+130
+hjw
+
+Oauth2AccessToken.java
+file
+
+
+
+
+2012-12-14T07:28:03.137283Z
+9190e238fa5b37c6d6eff0e697823c5d
+2012-12-14T07:28:42.907557Z
+130
+hjw
+
+net
+dir
+
+AndroidWeibo.java
+file
+
+
+
+
+2012-12-14T07:28:05.223402Z
+dca564180213cad77001ab1d7720fb20
+2012-12-14T07:28:42.907557Z
+130
+hjw
+
+api
+dir
+
+WeiboParameters.java
+file
+
+
+
+
+2012-12-14T07:28:04.761376Z
+de2b14a9231a4bb6599854d559755f2a
+2012-12-14T07:28:42.907557Z
+130
+hjw
+
+util
+dir
+
+WeiboAuthListener.java
+file
+
+
+
+
+2012-12-14T07:28:05.433414Z
+3479bf4f87e250d369f6444a037bb999
+2012-12-14T07:28:42.907557Z
+130
+hjw
+

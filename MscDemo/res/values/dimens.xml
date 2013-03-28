@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="btn_demo_margin_h">50dip</dimen>
+	<dimen name="btn_demo_padding">20dip</dimen>
+	
+	<dimen name="common_view_margin">8dip</dimen>
+	
+	<dimen name="text_introduction_size">19sp</dimen>
+</resources>

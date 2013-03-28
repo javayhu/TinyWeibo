@@ -1,0 +1,137 @@
+package cn.edu.csu.iteliter;
+
+import weibo4j.Comments;
+import weibo4j.model.WeiboException;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.graphics.Color;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.EditText;
+import android.widget.TextView;
+import cn.edu.csu.iteliter.model.UserData;
+import cn.edu.csu.iteliter.util.ConstantUtil;
+import cn.edu.csu.iteliter.util.ToastUtil;
+
+/**
+ * home weibo comment
+ * 
+ * @author hjw
+ * 
+ */
+public class HomeWeiboComment extends Activity {
+
+	private EditText et_comment_content;
+	private TextView tv_comment_counter;
+	private CheckBox cb_comment_option;
+	private Button btn_comment_send;
+
+	private String commentContent;
+	private boolean isCommentOri = false;
+	// private Status status;
+	private UserData userData;
+	private String statusid;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);// good for input
+		View mainview = getLayoutInflater().inflate(R.layout.home_weibo_comment, null);
+		setContentView(mainview);
+		// Bundle bundle = getIntent().getExtras();
+		// status = (Status) bundle.getSerializable("status");
+		statusid = getIntent().getStringExtra(ConstantUtil.STATUS_ID);
+		userData = MainWeibo.userData;
+
+		et_comment_content = (EditText) mainview.findViewById(R.id.et_comment_content);
+		tv_comment_counter = (TextView) mainview.findViewById(R.id.tv_comment_counter);
+		cb_comment_option = (CheckBox) mainview.findViewById(R.id.cb_comment_option);
+		btn_comment_send = (Button) mainview.findViewById(R.id.btn_comment_send);
+
+		et_comment_content.addTextChangedListener(new TextWatcher() {
+			public void afterTextChanged(Editable s) {
+			}
+
+			public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+			}
+
+			public void onTextChanged(CharSequence s, int start, int before, int count) {
+				commentContent = et_comment_content.getText().toString();
+				int len = commentContent.length();
+				if (len <= ConstantUtil.WEIBO_MAX_LENGTH) {
+					tv_comment_counter.setTextColor(Color.BLACK);// back to normal
+					len = ConstantUtil.WEIBO_MAX_LENGTH - len;
+					if (!btn_comment_send.isEnabled())
+						btn_comment_send.setEnabled(true);
+				} else {
+					len = len - ConstantUtil.WEIBO_MAX_LENGTH;
+					tv_comment_counter.setTextColor(Color.RED);// mention
+					if (btn_comment_send.isEnabled())
+						btn_comment_send.setEnabled(false);
+				}
+				tv_comment_counter.setText(String.valueOf(len));
+			}
+		});
+
+		cb_comment_option.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+				isCommentOri = isChecked;
+			}
+		});
+
+	}
+
+	// back
+	public void backToMainWeiboHome(View v) {
+		finish();
+	}
+
+	// send comment
+	public void sendWeiboComment(View v) {
+		if (null == commentContent || commentContent.equalsIgnoreCase("")) {
+			ToastUtil.showShortToast(getApplicationContext(), "亲，说点什么吧！");
+			return;
+		}
+		finish();
+		new AsyncTask<Void, Void, Void>() {// AsyncTask:call from UI thread
+			protected Void doInBackground(Void... params) {
+				Comments cm = new Comments();
+				cm.client.setToken(userData.getToken());
+				try {
+					// cm.createComment(commentContent, statusid);
+					Integer comment_ori = isCommentOri ? 1 : 0;
+					cm.createComment(commentContent, statusid, comment_ori);
+				} catch (WeiboException e) {
+					e.printStackTrace();
+				}
+				return null;
+			}
+
+			@Override
+			protected void onPostExecute(Void result) {
+				ToastUtil.showShortToast(getApplicationContext(), "评论成功");
+			}
+		}.execute();
+	}
+
+	// delete comment
+	public void deleteWeiboComment(View v) {
+		Dialog dialog = new AlertDialog.Builder(this).setTitle("删除确认").setMessage("您确定要删除这条评论吗?")
+				.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int which) {
+						et_comment_content.setText("");
+					}
+				}).setNegativeButton("取消", null).create();
+		dialog.show();
+	}
+}

@@ -1,0 +1,68 @@
+8
+
+dir
+152
+https://yinger/svn/sinaweibo/trunk/democodes/ChinaItElite/res/raw
+https://yinger/svn/sinaweibo
+
+
+
+2012-12-14T13:22:12.910700Z
+138
+hjw
+
+
+svn:special svn:externals svn:needs-lock
+
+shake_sound.mp3
+file
+
+
+
+
+2012-12-14T12:58:18.941682Z
+a30a76f86f506caf4e5ad693423b3eac
+2012-12-14T13:22:12.910700Z
+138
+hjw
+has-props
+
+shake_nomatch.mp3
+file
+
+
+
+
+2012-12-14T12:58:18.939682Z
+7fee17eb2216e0ccf0e9f8550647038d
+2012-12-14T13:22:12.910700Z
+138
+hjw
+has-props
+
+shake_match.mp3
+file
+
+
+
+
+2012-12-14T12:58:18.937682Z
+6233d7c671ff6a93a52d6dd67bd85df6
+2012-12-14T13:22:12.910700Z
+138
+hjw
+has-props
+
+sinaweibo_refresh.wav
+file
+
+
+
+
+2012-12-14T12:58:58.712957Z
+a68da4981ddb2c23484a2f7fb58be1c5
+2012-12-14T13:22:12.910700Z
+138
+hjw
+has-props
+

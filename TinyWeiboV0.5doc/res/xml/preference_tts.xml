@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/preference_title_tts">
+		<ListPreference
+			android:key="@string/preference_key_tts_role"
+			android:title="@string/preference_title_tts_role"
+			android:entries="@array/preference_entries_tts_role"
+			android:entryValues="@array/preference_values_tts_role"
+			android:defaultValue="@string/preference_default_tts_role"
+			android:dialogTitle="@string/preference_dialog_title_tts_role" />
+		<com.iflytek.mscdemo.SeekBarPreference
+			android:key="@string/preference_key_tts_speed"
+			android:title="@string/preference_title_tts_speed"
+			android:defaultValue="@string/preference_default_tts_speed"
+			android:dialogTitle="@string/preference_dialog_title_tts_speed" />
+		<com.iflytek.mscdemo.SeekBarPreference
+			android:key="@string/preference_key_tts_volume"
+			android:title="@string/preference_title_tts_volume"
+			android:defaultValue="@string/preference_default_tts_volume"
+			android:dialogTitle="@string/preference_dialog_title_tts_volume" />
+		<ListPreference
+			android:key="@string/preference_key_tts_music"
+			android:title="@string/preference_title_tts_music"
+			android:entries="@array/preference_entries_tts_music"
+			android:entryValues="@array/preference_values_tts_music"
+			android:defaultValue="@string/preference_default_tts_music"
+			android:dialogTitle="@string/preference_dialog_title_tts_music" />
+		<CheckBoxPreference
+			android:key="@string/preference_key_tts_show"
+			android:title="@string/preference_title_tts_show"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+</PreferenceScreen>

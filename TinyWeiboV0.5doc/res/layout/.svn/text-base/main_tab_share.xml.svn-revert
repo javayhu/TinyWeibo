@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/ib_writeweibo_back"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/title_btn_back"
+            android:onClick="backToMainWeiboHome"
+            android:src="@drawable/btn_back" />
+
+        <ImageView
+            android:id="@+id/iv_share_head"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/ib_writeweibo_back"
+            android:src="@drawable/write_weibo" />
+
+        <TextView
+            android:id="@+id/tv_share_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_share_head"
+            android:text="写微博"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ib_send"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/title_btn_right"
+            android:onClick="sendWeibo"
+            android:text="发送"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#eee" >
+
+        <LinearLayout
+            android:id="@+id/weibosdk_llImage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#00ffffff"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/weibosdk_rlTotal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" >
+
+                <ImageButton
+                    android:id="@+id/ib_writeweibo_pickpic"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/title_btn_right"
+                    android:onClick="takeCameraPicture"
+                    android:src="@drawable/weibo_write_pickpicture" />
+                
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/ib_writeweibo_pickpic"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/title_btn_right"
+                    android:onClick="takeMobilePicture"
+                    android:src="@drawable/weibo_write_takepicture" />
+
+                <LinearLayout
+                    android:id="@+id/ll_share_textlimit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/weibosdk_bg_delwords"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:onClick="deleteWeibo" >
+
+                    <TextView
+                        android:id="@+id/tv_word_counter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="140"
+                        android:textColor="#333" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/weibosdk_icon_delwords" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_share_photo"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00ffffff"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/iv_photo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/weibosdk_image_background" />
+
+                <ImageView
+                    android:id="@+id/iv_delPhoto"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:onClick="deletePhoto"
+                    android:src="@drawable/weibosdk_del_pic" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/weibosdk_llImage"
+            android:layout_alignParentTop="true"
+            android:layout_margin="3dp"
+            android:background="#00ffffff"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_share_write"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/edittext_border"
+                android:gravity="top|left"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:isScrollContainer="true"
+                android:singleLine="false" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+package cn.edu.csu.iteliter;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.LinearLayout;
+import cn.edu.csu.iteliter.util.ToastUtil;
+
+/**
+ * dialog exit
+ * 
+ * @author hjw
+ * 
+ */
+public class DialogExit extends Activity {
+	private LinearLayout ll_exit_layout;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.dialog_exit);
+		// dialog=new MyDialog(this);
+		ll_exit_layout = (LinearLayout) findViewById(R.id.ll_exit_layout);
+		ll_exit_layout.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				ToastUtil.showShortToast(getApplicationContext(), "点击窗口外部关闭窗口！");
+			}
+		});
+	}
+
+	@Override
+	public boolean onTouchEvent(MotionEvent event) {
+		finish();
+		return true;
+	}
+
+	// exit cancle
+	public void btn_exit_cancle(View v) {
+		finish();
+	}
+
+	// exit ok
+	public void btn_exit_ok(View v) {
+		finish();
+		MainWeibo.instance.finish();
+	}
+
+}

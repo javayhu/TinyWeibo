@@ -1,0 +1,142 @@
+package cn.edu.csu.iteliter;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import cn.edu.csu.iteliter.model.WeiboItem;
+import cn.edu.csu.iteliter.util.CacheUtil;
+import cn.edu.csu.iteliter.util.ConstantUtil;
+import cn.edu.csu.iteliter.util.WeiboUtil;
+
+/**
+ * weibo item
+ * 
+ * @author hjw
+ * 
+ */
+public class ResultWeiboItem extends Activity {
+
+	private ImageView iv_shakeweiboitem_profile;
+	private ImageView iv_shakeweiboitem_gender;
+	private ImageView iv_shakeweiboitem_statusImage;
+	private ImageView iv_shakeweiboitem_sourceImage;
+
+	private TextView tv_shakeweiboitem_screenname;
+	private TextView tv_shakeweiboitem_location;
+	private TextView tv_shakeweiboitem_time;
+	private TextView tv_shakeweiboitem_content;
+	private TextView tv_shakeweiboitem_from;
+	private TextView tv_shakeweiboitem_sourceContent;
+	private TextView tv_shakeweiboitem_sourceName;
+
+	private LinearLayout ll_shakeweiboitem_source;
+	private LinearLayout ll_shakeweiboitem_comment;
+	private LinearLayout ll_shakeweiboitem_forward;
+	private WeiboItem weiboItem;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.shake_weibo_result);
+		weiboItem = getIntent().getParcelableExtra("status");
+		iv_shakeweiboitem_gender = (ImageView) findViewById(R.id.iv_shakeweiboitem_gender);
+		iv_shakeweiboitem_profile = (ImageView) findViewById(R.id.iv_shakeweiboitem_profile);
+		iv_shakeweiboitem_statusImage = (ImageView) findViewById(R.id.iv_shakeweiboitem_statusImage);
+		iv_shakeweiboitem_sourceImage = (ImageView) findViewById(R.id.iv_shakeweiboitem_sourceImage);
+
+		tv_shakeweiboitem_screenname = (TextView) findViewById(R.id.tv_shakeweiboitem_screenname);
+		tv_shakeweiboitem_location = (TextView) findViewById(R.id.tv_shakeweiboitem_location);
+		tv_shakeweiboitem_time = (TextView) findViewById(R.id.tv_shakeweiboitem_time);
+		tv_shakeweiboitem_content = (TextView) findViewById(R.id.tv_shakeweiboitem_content);
+		tv_shakeweiboitem_from = (TextView) findViewById(R.id.tv_shakeweiboitem_from);
+		tv_shakeweiboitem_sourceName = (TextView) findViewById(R.id.tv_shakeweiboitem_sourceName);
+		tv_shakeweiboitem_sourceContent = (TextView) findViewById(R.id.tv_shakeweiboitem_sourceContent);
+
+		ll_shakeweiboitem_source = (LinearLayout) findViewById(R.id.ll_shakeweiboitem_source);
+		ll_shakeweiboitem_comment = (LinearLayout) findViewById(R.id.ll_shakeweiboitem_comment);
+		ll_shakeweiboitem_forward = (LinearLayout) findViewById(R.id.ll_shakeweiboitem_forward);
+
+		if (weiboItem != null) {
+			tv_shakeweiboitem_screenname.setText(weiboItem.getUsername());
+			tv_shakeweiboitem_from.setText(weiboItem.getFrom());
+			tv_shakeweiboitem_content.setText(weiboItem.getContent());
+			tv_shakeweiboitem_location.setText(weiboItem.getLocation());
+			tv_shakeweiboitem_time.setText(weiboItem.getTime());
+			tv_shakeweiboitem_sourceContent.setText(weiboItem.getSourceContent());
+			tv_shakeweiboitem_sourceName.setText("@" + weiboItem.getSourceName());// @ name
+
+			if (weiboItem.getGender().equalsIgnoreCase("f")) {// female
+				iv_shakeweiboitem_gender.setVisibility(View.VISIBLE);
+				iv_shakeweiboitem_gender.setImageResource(R.drawable.user_info_female);
+			} else if (weiboItem.getGender().equalsIgnoreCase("m")) {
+				iv_shakeweiboitem_gender.setVisibility(View.VISIBLE);
+				iv_shakeweiboitem_gender.setImageResource(R.drawable.user_info_male);
+			} else {// not know
+				iv_shakeweiboitem_gender.setVisibility(View.GONE);
+			}
+
+			if (weiboItem.getProfileImageUrl() != null && !weiboItem.getProfileImageUrl().equalsIgnoreCase("")) {
+				WeiboUtil.restoreBitmap(CacheUtil.PROFILE_CACHE_PATH, weiboItem.getProfileImageUrl(),
+						MainWeibo.imageHandler, iv_shakeweiboitem_profile, ConstantUtil.IMAGE_TYPE_PROFILE);
+			}
+
+			if (weiboItem.getSourceName() == null || "".equalsIgnoreCase(weiboItem.getSourceName())) {// no source
+				ll_shakeweiboitem_source.setVisibility(View.GONE);
+				if (weiboItem.getStatusImageUrl() != null && !weiboItem.getStatusImageUrl().equalsIgnoreCase("")) {// status
+					iv_shakeweiboitem_statusImage.setVisibility(View.VISIBLE);
+					WeiboUtil.restoreBitmap(CacheUtil.IMAGE_CACHE_PATH, weiboItem.getStatusImageUrl(),
+							MainWeibo.imageHandler, iv_shakeweiboitem_statusImage, ConstantUtil.IMAGE_TYPE_IMAGE);
+				} else {
+					iv_shakeweiboitem_statusImage.setVisibility(View.GONE);
+				}
+			} else {// have source
+				iv_shakeweiboitem_statusImage.setVisibility(View.GONE);
+				ll_shakeweiboitem_source.setVisibility(View.VISIBLE);
+				if (weiboItem.getSourceImageUrl() != null && !weiboItem.getSourceImageUrl().equalsIgnoreCase("")) {// source
+					WeiboUtil.restoreBitmap(CacheUtil.IMAGE_CACHE_PATH, weiboItem.getSourceImageUrl(),
+							MainWeibo.imageHandler, iv_shakeweiboitem_sourceImage, ConstantUtil.IMAGE_TYPE_IMAGE);
+				} else {
+					iv_shakeweiboitem_sourceImage.setVisibility(View.GONE);
+				}
+			}
+
+			ll_shakeweiboitem_comment.setOnClickListener(new OnClickListener() {
+				public void onClick(View v) {
+					// ToastUtil.showShortToast(getApplicationContext(), "comment id = " + status.getIdstr());
+					Intent intent = new Intent();
+					intent.setClass(ResultWeiboItem.this, HomeWeiboComment.class);
+					intent.putExtra(ConstantUtil.STATUS_ID, weiboItem.getStatusid());
+					// Bundle bundle = new Bundle();
+					// bundle.putSerializable("status", status);
+					// intent.putExtras(bundle);
+					startActivity(intent);
+				}
+			});
+
+			ll_shakeweiboitem_forward.setOnClickListener(new OnClickListener() {
+				public void onClick(View v) {
+					// ToastUtil.showShortToast(getApplicationContext(), "forward id = " + status.getIdstr());
+					Intent intent = new Intent();
+					intent.setClass(ResultWeiboItem.this, HomeWeiboRepost.class);
+					intent.putExtra(ConstantUtil.STATUS_ID, weiboItem.getStatusid());
+					// Bundle bundle = new Bundle();
+					// bundle.putSerializable("status", status);
+					// intent.putExtras(bundle);
+					startActivity(intent);
+				}
+			});
+
+		}
+
+	}
+
+	public void btn_back(View v) {
+		finish();
+	}
+
+}

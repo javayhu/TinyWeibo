@@ -1,0 +1,57 @@
+package cn.edu.csu.iteliter;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.View;
+import cn.edu.csu.iteliter.util.ConstantUtil;
+
+/**
+ * Home top right dialog <br/>
+ * choose which type weibo to show
+ * 
+ * @author hjw
+ * 
+ */
+public class HomeTopRightDialog extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.home_dialog_choosetype);
+	}
+
+	@Override
+	public boolean onTouchEvent(MotionEvent event) {
+		// System.out.println("onTouchEvent");//here will be invoked twice
+		setResult(RESULT_CANCELED);
+		finish();
+		return true;
+	}
+
+	public void ll_showHomeWeibo(View v) {
+		// ToastUtil.showShortToast(getApplicationContext(), "home");//
+		setResult(RESULT_OK, (new Intent()).putExtra(ConstantUtil.TIMELINE_TYPE, ConstantUtil.TIMELINE_PUBLIC));
+		finish();
+	}
+
+	public void ll_showFriendsWeibo(View v) {
+		// ToastUtil.showShortToast(getApplicationContext(), "friends");//
+		setResult(RESULT_OK, (new Intent()).putExtra(ConstantUtil.TIMELINE_TYPE, ConstantUtil.TIMELINE_FRIENDS));
+		finish();
+	}
+
+	public void ll_showUserWeibo(View v) {
+		// ToastUtil.showShortToast(getApplicationContext(), "mine");//
+		setResult(RESULT_OK, (new Intent()).putExtra(ConstantUtil.TIMELINE_TYPE, ConstantUtil.TIMELINE_USER));
+		finish();
+	}
+
+	public void ll_showMentionsWeibo(View v) {
+		// ToastUtil.showShortToast(getApplicationContext(), "atme");//
+		setResult(RESULT_OK, (new Intent()).putExtra(ConstantUtil.TIMELINE_TYPE, ConstantUtil.TIMELINE_MENTIONS));
+		finish();
+	}
+
+}

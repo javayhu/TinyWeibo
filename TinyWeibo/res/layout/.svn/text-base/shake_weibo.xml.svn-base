@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#111"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:id="@+id/shakeBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/shakehideimg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_shake_handup"
+                android:layout_width="fill_parent"
+                android:layout_height="190dp"
+                android:background="#111" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shake_logo_up" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_shake_handdown"
+                android:layout_width="fill_parent"
+                android:layout_height="190dp"
+                android:background="#111" >
+
+                <ImageView
+                    android:id="@+id/iv_shake_handshakedown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shake_logo_down" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_shake_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back"
+            android:onClick="backToMainWeibo"
+            android:text="返回"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_shake_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="摇周边动态"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <!--
+        <ImageButton
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/title_btn_right"
+            android:onClick="shake_title_autoshake"
+            android:scaleType="centerInside"
+            android:src="@drawable/shake_handshake" />
+        -->
+    </RelativeLayout>
+
+    <!--
+    <SlidingDrawer
+        android:id="@+id/sd_shake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/ll_shake_content"
+        android:handle="@+id/btn_shake_handle" >
+
+        <Button
+            android:id="@id/btn_shake_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shake_report_dragger_up" />
+
+        <LinearLayout
+            android:id="@id/ll_shake_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eee"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </SlidingDrawer>
+    -->
+
+    <RelativeLayout
+        android:id="@+id/rl_shake_result"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/shake_match_ok"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/iv_shakeweiboitem_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="center"
+            android:src="@drawable/sinaweibo64" />
+
+        <TextView
+            android:id="@+id/tv_shakeweiboitem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_shakeweiboitem_head"
+            android:padding="10dp"
+            android:text="Name"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/iv_shakeweiboitem_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_shakeweiboitem_name"
+            android:padding="10dp"
+            android:src="@drawable/user_info_male" />
+
+        <TextView
+            android:id="@+id/tv_shakeweiboitem_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_shakeweiboitem_head"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Distance"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_shakeweiboitem_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_shakeweiboitem_name"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/iv_shakeweiboitem_head"
+            android:padding="10dp"
+            android:text="Content"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_shake_loading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <!--
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/load" />
+            -->
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="亲，等等哈，正找着呢..."
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

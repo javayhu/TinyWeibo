@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:scaleType="fitXY"
+		android:src="@drawable/wave" />
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:padding="@dimen/common_view_margin">
+		<TextView
+			style="@style/CategoryTextView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/text_isr_category" />
+		<TextView
+			style="@style/IntroductionTextView"
+			android:id="@+id/text_isr_introduction"
+			android:layout_width="fill_parent"
+			android:layout_height="0dip"
+			android:layout_weight="1"
+			android:layout_marginTop="@dimen/common_view_margin"
+			android:layout_marginBottom="@dimen/common_view_margin"
+			android:text="@string/text_isr_introduction"
+			android:scrollbars="vertical"
+			android:scrollbarAlwaysDrawVerticalTrack="false" />
+		<Button
+			android:id="@+id/btn_iat_demo"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/text_iat_demo">
+			<requestFocus />
+		</Button>
+		<Button
+			android:id="@+id/btn_isr_demo"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/common_view_margin"
+			android:layout_marginBottom="@dimen/common_view_margin"
+			android:text="@string/text_isr_demo" />
+		<TextView
+			style="@style/CategoryTextView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/text_tts_category" />
+		<TextView
+			style="@style/IntroductionTextView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/common_view_margin"
+			android:layout_marginBottom="@dimen/common_view_margin"
+			android:text="@string/text_tts_introduction" />
+		<Button
+			android:id="@+id/btn_tts_demo"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/text_tts_demo" />
+	</LinearLayout>
+</merge>

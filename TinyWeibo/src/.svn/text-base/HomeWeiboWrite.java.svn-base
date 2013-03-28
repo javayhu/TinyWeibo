@@ -1,0 +1,268 @@
+package cn.edu.csu.iteliter;
+
+import java.io.File;
+import java.io.IOException;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.SystemClock;
+import android.provider.MediaStore;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
+import cn.edu.csu.iteliter.model.UserData;
+import cn.edu.csu.iteliter.util.CacheUtil;
+import cn.edu.csu.iteliter.util.ConstantUtil;
+import cn.edu.csu.iteliter.util.ImageUtil;
+import cn.edu.csu.iteliter.util.ToastUtil;
+import cn.edu.csu.iteliter.util.WeiboUtil;
+
+import com.weibo.sdk.android.api.StatusesAPI;
+import com.weibo.sdk.android.net.RequestListener;
+
+/**
+ * home weibo comment
+ * 
+ * @author hjw
+ * 
+ */
+public class HomeWeiboWrite extends Activity implements ConstantUtil, RequestListener {
+
+	private UserData userData;
+
+	private TextView tv_writeweibo_title;//
+	private EditText et_share_write;// 文本编辑框
+	private TextView tv_word_counter;// 统计字数
+	private ImageView iv_photo;// 图片和删除照片
+	private Button ib_send;// 发送微博
+	private FrameLayout fl_share_photo;
+
+	private String mPicPath = "";// 照片的路径
+	private String mContent = "";// 微博内容
+
+	private File sdcardTempFile;// just for take picture
+
+	// private InputMethodManager imm;//
+
+	private Bitmap photoBitmap;
+	private int type;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		// important here
+		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);// good for input
+		View mainview = getLayoutInflater().inflate(R.layout.home_weibo_write, null);
+		setContentView(mainview);
+		type = getIntent().getIntExtra(ConstantUtil.WRITE_WEIBO_TYPE, ConstantUtil.WRITE_WEIBO_TYPE_WRITEWEIBO);
+		// imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);//
+		userData = MainWeibo.userData;
+		tv_writeweibo_title = (TextView) mainview.findViewById(R.id.tv_writeweibo_title);
+		if (type == ConstantUtil.WRITE_WEIBO_TYPE_WRITEWEIBO) {
+			tv_writeweibo_title.setText("写微博");
+		} else {
+			tv_writeweibo_title.setText("意见反馈");
+		}
+		et_share_write = (EditText) mainview.findViewById(R.id.et_share_write);
+		tv_word_counter = (TextView) mainview.findViewById(R.id.tv_word_counter);
+		iv_photo = (ImageView) mainview.findViewById(R.id.iv_photo);
+		ib_send = (Button) mainview.findViewById(R.id.ib_send);
+		tv_word_counter.setText(ConstantUtil.WEIBO_MAX_LENGTH + "");
+		et_share_write.addTextChangedListener(new TextWatcher() {
+			public void afterTextChanged(Editable s) {
+			}
+
+			public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+			}
+
+			public void onTextChanged(CharSequence s, int start, int before, int count) {
+				String mText = et_share_write.getText().toString();
+				System.out.println("onTextChanged --- " + mText);
+				int len = mText.length();
+				if (len <= WEIBO_MAX_LENGTH) {
+					len = WEIBO_MAX_LENGTH - len;
+					tv_word_counter.setTextColor(Color.BLACK);
+					if (!ib_send.isEnabled())
+						ib_send.setEnabled(true);
+				} else {
+					len = len - WEIBO_MAX_LENGTH;
+					tv_word_counter.setTextColor(Color.RED);
+					if (ib_send.isEnabled())
+						ib_send.setEnabled(false);
+				}
+				tv_word_counter.setText(String.valueOf(len));
+			}
+		});
+		et_share_write.setText(mContent);
+		fl_share_photo = (FrameLayout) mainview.findViewById(R.id.fl_share_photo);
+		fl_share_photo.setVisibility(View.GONE);
+	}
+
+	// back
+	public void backToMainWeiboHome(View v) {
+		finish();
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		BitmapFactory.Options options = new BitmapFactory.Options();
+		options.inSampleSize = 2;
+		options.inDither = true;
+		if (requestCode == REQUEST_PICK_PICTURE) {// diffrent phone,diffrent result
+			// System.out.println("pick" + resultCode);
+			if (resultCode == RESULT_OK) {
+				Uri uri = intent.getData();//
+				// System.out.println("uri = " + uri);// must be content:///....
+				// uri ---> content:///external/images/...
+				// /uri ---> file:///mnt/sdcaed/...
+				Cursor cursor = getContentResolver().query(uri, null, null, null, null);
+				cursor.moveToFirst();
+				mPicPath = cursor.getString(1);
+				cursor.close();
+				photoBitmap = BitmapFactory.decodeFile(mPicPath, options);
+				mPicPath = CacheUtil.PICTURE_CACHE_PATH + "tmp_pic_" + SystemClock.currentThreadTimeMillis() + ".jpg";
+				CacheUtil.saveImageToPath(photoBitmap, mPicPath);// save the image
+				iv_photo.setImageBitmap(photoBitmap);
+				fl_share_photo.setVisibility(View.VISIBLE);
+			}
+		} else if (requestCode == REQUEST_TAKE_PICTURE) {
+			// System.out.println("take" + resultCode);
+			if (resultCode == RESULT_OK) {
+				mPicPath = sdcardTempFile.getAbsolutePath();// picture taken will be saved in here
+				// System.out.println("mpicpath  = " + mPicPath);
+				photoBitmap = BitmapFactory.decodeFile(mPicPath, options);
+				iv_photo.setImageBitmap(photoBitmap);
+				fl_share_photo.setVisibility(View.VISIBLE);
+			}
+		}
+	}
+
+	// 拍照功能
+	public void takeCameraPicture(View v) {
+		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+		sdcardTempFile = new File(CacheUtil.PICTURE_CACHE_PATH + "tmp_pic_" + SystemClock.currentThreadTimeMillis()
+				+ ".jpg");
+		intent.putExtra("output", Uri.fromFile(sdcardTempFile));// picture will save thre//do not do this
+		startActivityForResult(intent, REQUEST_TAKE_PICTURE);
+	}
+
+	// 本地相册
+	public void takeMobilePicture(View v) {
+		// "android.intent.action.GET_CONTENT"
+		Intent intent = new Intent(Intent.ACTION_GET_CONTENT);// uri --> content:// /external/images/media/181
+		// Intent intent = new Intent("android.intent.action.PICK");//uri --> file:// /mnt/sdcard/...
+		// pickk is different:mine file mengdan content
+		intent.setType("image/*");
+		// intent.putExtra("output", Uri.fromFile(sdcardTempFile));// picture will not move
+		startActivityForResult(intent, REQUEST_PICK_PICTURE);
+	}
+
+	// send weibo
+	public void sendWeibo(View v) {
+		if (!TextUtils.isEmpty(userData.getToken())) {
+			mContent = et_share_write.getText().toString();
+			if (type == ConstantUtil.WRITE_WEIBO_TYPE_SUGGESTION) {
+				mContent = WeiboUtil.getSuggetionPrefix() + mContent;// add some prefix
+			}
+			if (TextUtils.isEmpty(mContent)) {
+				ToastUtil.showShortToast(getApplicationContext(), "朋友，请输入内容");
+				return;
+			}
+			ToastUtil.showShortToast(getApplicationContext(), "微博发送中,请稍等...");// 这种情况貌似不可能
+			new Thread(new Runnable() {
+				public void run() {
+					StatusesAPI api = new StatusesAPI(userData.obtainOauth2AccessToken());// hjw
+					if (!TextUtils.isEmpty(mPicPath)) {
+						api.upload(mContent, mPicPath, null, null, HomeWeiboWrite.this);
+					} else {
+						api.update(mContent, null, null, HomeWeiboWrite.this);
+					}
+				}
+			}).start();
+			finish();// exit this activity
+		} else {
+			ToastUtil.showShortToast(getApplicationContext(), "朋友，请先登录");// 这种情况貌似不可能
+		}
+	}
+
+	// delete photo
+	public void deletePhoto(View v) {
+		Dialog dialog = new AlertDialog.Builder(this).setTitle(R.string.weibosdk_attention)
+				.setMessage(R.string.weibosdk_del_pic)
+				.setPositiveButton(R.string.weibosdk_ok, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int which) {
+						fl_share_photo.setVisibility(View.GONE);
+						mPicPath = null;
+					}
+				}).setNegativeButton(R.string.weibosdk_cancel, null).create();
+		dialog.show();
+	}
+
+	// rotate photo
+	public void rotatePhoto(View v) {
+		if (photoBitmap != null) {
+			photoBitmap = ImageUtil.RotateBitmap(photoBitmap);
+			iv_photo.setImageBitmap(photoBitmap);
+			CacheUtil.saveImageToPath(photoBitmap, mPicPath);// save the image
+		}
+	}
+
+	// delete weibo
+	public void deleteWeibo(View v) {
+		Dialog dialog = new AlertDialog.Builder(this).setTitle(R.string.weibosdk_attention)
+				.setMessage(R.string.weibosdk_delete_all)
+				.setPositiveButton(R.string.weibosdk_ok, new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int which) {
+						et_share_write.setText("");
+					}
+				}).setNegativeButton(R.string.weibosdk_cancel, null).create();
+		dialog.show();
+	}
+
+	@Override
+	public void onComplete(String response) {
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				ToastUtil.showLongToast(getApplicationContext(), "微博发送成功！");
+			}
+		});
+	}
+
+	@Override
+	public void onIOException(IOException e) {
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				ToastUtil.showLongToast(getApplicationContext(), "微博发送异常！");// hjw
+			}
+		});
+	}
+
+	@Override
+	public void onError(com.weibo.sdk.android.WeiboException e) {
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				ToastUtil.showLongToast(getApplicationContext(), "微博发送失败！");// hjw
+			}
+		});
+	}
+
+}

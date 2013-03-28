@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android
+END
+WeiboDialogError.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android/WeiboDialogError.java
+END
+WeiboException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android/WeiboException.java
+END
+Oauth2AccessToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android/Oauth2AccessToken.java
+END
+WeiboDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android/WeiboDialog.java
+END
+AndroidWeibo.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android/AndroidWeibo.java
+END
+WeiboParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android/WeiboParameters.java
+END
+WeiboAuthListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sinaweibo/!svn/ver/130/trunk/democodes/ChinaItElite/src/com/weibo/sdk/android/WeiboAuthListener.java
+END
