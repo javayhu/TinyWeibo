@@ -31,4 +31,7 @@ Repository中的几个项目简介：
 
 3. TinyWeiboV0.5Doc：这个是最终给评委的包含了注释的全部源代码
 
-5. weibo---：下面的都是新浪微博的SDK，这个都是2012年12月的最新的SDK
+4. weibo---：下面的都是新浪微博的SDK，这个都是2012年12月的最新的SDK
+   新浪微博接口文档：http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2
+   新浪微博API测试工具：http://open.weibo.com/tools/console
+
