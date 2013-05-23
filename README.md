@@ -3,7 +3,7 @@ TinyWeibo  微微博
 
 An Android application for Sina Weibo 一个强大的新浪微博 Android 客户端，采用TX的微信界面来开发Sina的微博客户端
 
-项目运行截图和简单介绍请看我的博客：http://www.cnblogs.com/yinger/archive/2013/03/28/2986865.html
+项目运行截图和简单介绍请看我的博客：http://hujiaweiyinger.diandian.com
 
 Repository中的几个项目简介：
 
