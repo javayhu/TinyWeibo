@@ -5,6 +5,22 @@ An Android application for Sina Weibo 一个强大的新浪微博 Android 客户
 
 项目运行截图和简单介绍请看我的博客：http://hujiaweiyinger.diandian.com
 
+可用的测试账号：  itelite2012@sina.com   itelite
+
+主要功能：
+
+1.采用OAuth2.0认证登陆；
+
+2.微博功能（发，转发，评论，查看微博列表）；
+
+3.语音微博（科大讯飞接口）；
+
+4.图片处理（Aviary接口）；
+
+5.查找附近玩微博的人！亲，它还是可以摇的哟！
+
+由于功能比较特别，模拟器可能支持不了，所以建议真机测试
+
 Repository中的几个项目简介：
 
 1. Android-Feather：这个是Aviary图片处理工具的核心代码，也是TinyWeibo引用了的项目，所以必须要备着<br>
