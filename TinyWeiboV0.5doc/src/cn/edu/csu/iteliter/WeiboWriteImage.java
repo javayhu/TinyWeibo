@@ -35,7 +35,7 @@ import cn.edu.csu.iteliter.util.ToastUtil;
 
 import com.aviary.android.feather.Constants;
 import com.aviary.android.feather.FeatherActivity;
-import com.aviary.android.feather.R;
+//import com.aviary.android.feather.R;//comment here
 import com.aviary.android.feather.library.utils.DecodeUtils;
 import com.aviary.android.feather.library.utils.ImageLoader.ImageSizes;
 import com.aviary.android.feather.library.utils.StringUtils;
