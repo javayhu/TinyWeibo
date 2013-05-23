@@ -21,7 +21,7 @@ import weibo4j.http.BASE64Encoder;
  * @version 1.0
  * 
  */
-public class EncryptDecrypt {
+public class EncryptDecryptUtil {
 
 	/**
 	 * 加密.

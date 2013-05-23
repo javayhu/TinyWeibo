@@ -53,6 +53,59 @@ public class WeiboUtil {
 	}
 
 	/**
+	 * 格式化占用的空间大小
+	 * 
+	 * @param spaceUsed
+	 *            使用的空间大小
+	 * @return 空间大小的字符串表示
+	 */
+	public static String formatSpaceSize(double spaceUsed) {
+		if (spaceUsed < 1) {
+			return "不到 1M";
+		} else {
+			DecimalFormat decimalFormat = new DecimalFormat("#0.00");
+			return decimalFormat.format(spaceUsed) + "M";
+		}
+	}
+
+	/**
+	 * 得到所需的bitmap
+	 * 
+	 * @param cachePath
+	 *            图片的缓存文件夹
+	 * @param profileImageUrl
+	 *            头像的URL
+	 * @param handler
+	 *            要发送和接收message的Handler
+	 * @param imageView
+	 *            ImageView 控件
+	 * @param type
+	 *            图片类型
+	 */
+	public static void restoreBitmap(String cachePath, String profileImageUrl, Handler handler, ImageView imageView,
+			int type) {
+		Bitmap image = CacheUtil.restoreBitmap(cachePath, profileImageUrl);
+		if (image != null) {
+			image = ImageUtil.getRoundedCornerBitmap(image);// round it
+			imageView.setImageBitmap(image);
+		} else {
+			asyncLoadWeiboImage(handler, new WeiboImage(imageView, profileImageUrl, null), type);
+		}
+	}
+
+	/**
+	 * 得到意见反馈的前缀
+	 * 
+	 * @return 意见反馈的前缀
+	 */
+	public static String getSuggetionPrefix() {
+		StringBuffer stringBuffer = new StringBuffer(ConstantUtil.SUGGESTION_PREFIX);
+		stringBuffer.append("型号 " + android.os.Build.MODEL + ",");
+		stringBuffer.append("系统 " + android.os.Build.VERSION.RELEASE + ",反馈意见: ");
+		return stringBuffer.toString();
+	}
+
+	/**
 	 * 异步加载用户信息
 	 * 
 	 * @param handler
@@ -104,7 +157,7 @@ public class WeiboUtil {
 					if (bitmap == null) {
 						return;
 					}
-					weiboImage.bitmap = ImageUtil.GetRoundedCornerBitmap(bitmap);
+					weiboImage.bitmap = ImageUtil.getRoundedCornerBitmap(bitmap);
 
 					Message message = new Message();
 					message.what = ConstantUtil.MESSAGE_TYPE_WEIBOIMAGE;
@@ -113,68 +166,15 @@ public class WeiboUtil {
 
 					if (type == ConstantUtil.IMAGE_TYPE_PROFILE) {
 						CacheUtil.saveImageToPath(weiboImage.bitmap,
-								CacheUtil.PROFILE_CACHE_PATH + EncryptDecrypt.encrypt(weiboImage.imageurl));
+								CacheUtil.PROFILE_CACHE_PATH + EncryptDecryptUtil.encrypt(weiboImage.imageurl));
 					} else if (type == ConstantUtil.IMAGE_TYPE_IMAGE) {
 						CacheUtil.saveImageToPath(weiboImage.bitmap,
-								CacheUtil.IMAGE_CACHE_PATH + EncryptDecrypt.encrypt(weiboImage.imageurl));
+								CacheUtil.IMAGE_CACHE_PATH + EncryptDecryptUtil.encrypt(weiboImage.imageurl));
 					}
 
 				} catch (Exception e) {
 				}
 			}
 		}).start();
-	}
-
-	/**
-	 * 得到所需的bitmap
-	 * 
-	 * @param cachePath
-	 *            图片的缓存文件夹
-	 * @param profileImageUrl
-	 *            头像的URL
-	 * @param handler
-	 *            要发送和接收message的Handler
-	 * @param imageView
-	 *            ImageView 控件
-	 * @param type
-	 *            图片类型
-	 */
-	public static void restoreBitmap(String cachePath, String profileImageUrl, Handler handler, ImageView imageView,
-			int type) {
-		Bitmap image = CacheUtil.restoreBitmap(cachePath, profileImageUrl);
-		if (image != null) {
-			image = ImageUtil.GetRoundedCornerBitmap(image);// round it
-			imageView.setImageBitmap(image);
-		} else {
-			asyncLoadWeiboImage(handler, new WeiboImage(imageView, profileImageUrl, null), type);
-		}
-	}
-
-	/**
-	 * 得到意见反馈的前缀
-	 * 
-	 * @return 意见反馈的前缀
-	 */
-	public static String getSuggetionPrefix() {
-		StringBuffer stringBuffer = new StringBuffer(ConstantUtil.SUGGESTION_PREFIX);
-		stringBuffer.append("型号 " + android.os.Build.MODEL + ",");
-		stringBuffer.append("系统 " + android.os.Build.VERSION.RELEASE + ",反馈意见: ");
-		return stringBuffer.toString();
-	}
-
-	/**
-	 * 格式化占用的空间大小
-	 * 
-	 * @param spaceUsed
-	 *            使用的空间大小
-	 * @return 空间大小的字符串表示
-	 */
-	public static String formatSpaceSize(double spaceUsed) {
-		if (spaceUsed < 1) {
-			return "不到 1M";
-		} else {
-			DecimalFormat decimalFormat = new DecimalFormat("#0.00");
-			return decimalFormat.format(spaceUsed) + "M";
-		}
 	}
 }

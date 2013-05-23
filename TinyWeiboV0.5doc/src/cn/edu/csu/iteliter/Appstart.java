@@ -40,25 +40,26 @@ public class Appstart extends Activity {
 		new Handler().postDelayed(new Runnable() {
 			@Override
 			public void run() {
-			UserData userdata = UserDataUtil.readUserData(getApplicationContext());// 得到用户数据
-			if (NetworkUtil.getNetworkState(Appstart.this) != NetworkUtil.NONE) {// 有网络
-				String localToken = userdata.getToken();
-				String localExpiresIn = userdata.getExpirestime();
-				Intent intent = null;
-				if (UserDataUtil.isTokenValid(localToken, localExpiresIn)) {// token还有效
-					if (userdata.isFirstrun()) {// 第一次运行，进入欢迎界面
-						intent = new Intent(Appstart.this, Whatsnew.class);
-					} else {// 不是第一次运行，进入主界面
-						intent = new Intent(Appstart.this, MainWeibo.class);
+				UserData userdata = UserDataUtil.readUserData(getApplicationContext());// 得到用户数据
+				if (NetworkUtil.getNetworkState(Appstart.this) != NetworkUtil.NONE) {// 有网络
+					String localToken = userdata.getToken();
+					System.out.println("token = " + localToken);
+					String localExpiresIn = userdata.getExpirestime();
+					Intent intent = null;
+					if (UserDataUtil.isTokenValid(localToken, localExpiresIn)) {// token还有效
+						if (userdata.isFirstrun()) {// 第一次运行，进入欢迎界面
+							intent = new Intent(Appstart.this, Whatsnew.class);
+						} else {// 不是第一次运行，进入主界面
+							intent = new Intent(Appstart.this, MainWeibo.class);
+						}
+					} else {// 无效，重新授权登陆
+						intent = new Intent(Appstart.this, Welcome.class);
 					}
-				} else {// 无效，重新授权登陆
-					intent = new Intent(Appstart.this, Welcome.class);
+					startActivity(intent);
+					Appstart.this.finish();
+				} else {// 没有网络
+					ToastUtil.showShortToast(Appstart.this, "网络不可用哟");
 				}
-				startActivity(intent);
-				Appstart.this.finish();
-			} else {// 没有网络
-				ToastUtil.showShortToast(Appstart.this, "网络不可用哟");
-			}
 			}
 		}, 2000);
 	}

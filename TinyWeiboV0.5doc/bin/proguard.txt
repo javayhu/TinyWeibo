@@ -137,7 +137,7 @@
 # view res/layout/feather_native_effects_content.xml #generated:12
 -keep class com.aviary.android.feather.widget.SwipeView { <init>(...); }
 
-# view large\res/layout-large/feather_crop_button.xml #generated:11
+# view large/res/layout-large/feather_crop_button.xml #generated:11
 # view res/layout/feather_adjust_panel.xml #generated:60
 # view res/layout/feather_adjust_panel.xml #generated:96
 # view res/layout/feather_crop_button.xml #generated:11

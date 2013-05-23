@@ -74,7 +74,7 @@ public class CacheUtil {
 	 * @return 图片的Bitmap
 	 */
 	public static Bitmap restoreBitmap(String parentpath, String imageurl) {
-		String path = parentpath + EncryptDecrypt.encrypt(imageurl);
+		String path = parentpath + EncryptDecryptUtil.encrypt(imageurl);
 		File file = new File(path);
 		if (file.exists()) {
 			try {

@@ -38,7 +38,7 @@ public class ImageUtil {
 	 *            要圆角处理的图片的bitmap信息
 	 * @return 圆角之后的图片的bitmap信息
 	 */
-	public static Bitmap GetRoundedCornerBitmap(Bitmap bitmap) {
+	public static Bitmap getRoundedCornerBitmap(Bitmap bitmap) {
 		try {
 			Bitmap output = Bitmap.createBitmap(bitmap.getWidth(), bitmap.getHeight(), Config.ARGB_8888);
 			Canvas canvas = new Canvas(output);
@@ -66,7 +66,7 @@ public class ImageUtil {
 	 *            要旋转的图片的bitmap信息
 	 * @return 旋转之后的图片的bitmap信息
 	 */
-	public static Bitmap RotateBitmap(Bitmap bitmap) {
+	public static Bitmap rotateBitmap(Bitmap bitmap) {
 		int w = bitmap.getWidth();
 		int h = bitmap.getHeight();
 		Matrix mtx = new Matrix();

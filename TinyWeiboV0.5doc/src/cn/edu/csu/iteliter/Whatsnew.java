@@ -8,6 +8,9 @@ package cn.edu.csu.iteliter;
 
 import java.util.ArrayList;
 
+import cn.edu.csu.iteliter.model.UserData;
+import cn.edu.csu.iteliter.util.UserDataUtil;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -111,9 +114,9 @@ public class Whatsnew extends Activity {
 	}
 
 	/**
-	 * The listener interface for receiving myOnPageChange events. The class that is interested in processing a
-	 * myOnPageChange event implements this interface, and the object created with that class is registered with a
-	 * component using the component's <code>addMyOnPageChangeListener<code> method. When
+	 * The listener interface for receiving myOnPageChange events. The class that is interested in processing a myOnPageChange event
+	 * implements this interface, and the object created with that class is registered with a component using the component's
+	 * <code>addMyOnPageChangeListener<code> method. When
 	 * the myOnPageChange event occurs, that object's appropriate
 	 * method is invoked.
 	 * 
@@ -178,6 +181,9 @@ public class Whatsnew extends Activity {
 	 *            View组件
 	 */
 	public void btn_start(View v) {
+		UserData userData = UserDataUtil.readUserData(getApplicationContext());
+		userData.setFirstrun(false);
+		UserDataUtil.updateUserData(getApplicationContext(), userData);
 		Intent intent = new Intent();
 		intent.setClass(Whatsnew.this, WhatsnewDoor.class);
 		startActivity(intent);

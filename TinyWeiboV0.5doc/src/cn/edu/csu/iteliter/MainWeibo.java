@@ -219,9 +219,9 @@ public class MainWeibo extends Activity implements ConstantUtil {
 	}
 
 	/**
-	 * The listener interface for receiving myOnClick events. The class that is interested in processing a myOnClick
-	 * event implements this interface, and the object created with that class is registered with a component using the
-	 * component's <code>addMyOnClickListener<code> method. When
+	 * The listener interface for receiving myOnClick events. The class that is interested in processing a myOnClick event implements this
+	 * interface, and the object created with that class is registered with a component using the component's
+	 * <code>addMyOnClickListener<code> method. When
 	 * the myOnClick event occurs, that object's appropriate
 	 * method is invoked.
 	 * 
@@ -254,9 +254,9 @@ public class MainWeibo extends Activity implements ConstantUtil {
 	};
 
 	/**
-	 * The listener interface for receiving myOnPageChange events. The class that is interested in processing a
-	 * myOnPageChange event implements this interface, and the object created with that class is registered with a
-	 * component using the component's <code>addMyOnPageChangeListener<code> method. When
+	 * The listener interface for receiving myOnPageChange events. The class that is interested in processing a myOnPageChange event
+	 * implements this interface, and the object created with that class is registered with a component using the component's
+	 * <code>addMyOnPageChangeListener<code> method. When
 	 * the myOnPageChange event occurs, that object's appropriate
 	 * method is invoked.
 	 * 
@@ -372,8 +372,7 @@ public class MainWeibo extends Activity implements ConstantUtil {
 				mainMenu = inflater.inflate(R.layout.main_menu, null);
 				menuWindow = new PopupWindow(mainMenu, android.view.ViewGroup.LayoutParams.FILL_PARENT,
 						android.view.ViewGroup.LayoutParams.WRAP_CONTENT);
-				menuWindow.showAtLocation(findViewById(R.id.rl_mainweibo), Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL,
-						0, 0);
+				menuWindow.showAtLocation(findViewById(R.id.rl_mainweibo), Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 0);
 				btn_menu_close = (LinearLayout) mainMenu.findViewById(R.id.btn_menu_close);
 
 				btn_menu_close.setOnClickListener(new View.OnClickListener() {
@@ -422,6 +421,8 @@ public class MainWeibo extends Activity implements ConstantUtil {
 		}
 		musicPlayer.release();
 	}
+
+	// /////////////// tab home ///////////////////////
 
 	/** 微博选项卡界面中的字段和方法 */
 
@@ -605,19 +606,19 @@ public class MainWeibo extends Activity implements ConstantUtil {
 					userData.setNickname(user.getScreenName());
 					userData.setProfileimage(user.getProfileImageUrl());
 					UserDataUtil.updateUserData(getApplicationContext(), userData);// update user info --->save
-					WeiboUtil.restoreBitmap(CacheUtil.PROFILE_CACHE_PATH, user.getProfileImageUrl(), imageHandler,
-							iv_home_head, IMAGE_TYPE_PROFILE);
+					WeiboUtil.restoreBitmap(CacheUtil.PROFILE_CACHE_PATH, user.getProfileImageUrl(), imageHandler, iv_home_head,
+							IMAGE_TYPE_PROFILE);
 				}
 			}
 		};
 
-		if (userData.getNickname() == null || userData.getNickname().equalsIgnoreCase("")
-				|| userData.getProfileimage() == null || userData.getProfileimage().equalsIgnoreCase("")) {
+		if (userData.getNickname() == null || userData.getNickname().equalsIgnoreCase("") || userData.getProfileimage() == null
+				|| userData.getProfileimage().equalsIgnoreCase("")) {
 			WeiboUtil.asyncLoadUserData(tabhomehandler);//
 		} else {// do not validate user profile image, for user may change his profile image
 			tv_home_name.setText(userData.getNickname());// nick name
-			WeiboUtil.restoreBitmap(CacheUtil.PROFILE_CACHE_PATH, userData.getProfileimage(), imageHandler,
-					iv_home_head, IMAGE_TYPE_PROFILE);
+			WeiboUtil.restoreBitmap(CacheUtil.PROFILE_CACHE_PATH, userData.getProfileimage(), imageHandler, iv_home_head,
+					IMAGE_TYPE_PROFILE);
 		}
 
 	}
@@ -824,6 +825,7 @@ public class MainWeibo extends Activity implements ConstantUtil {
 		startActivity(intent);
 	}
 
+	// /////////////// tab user info ///////////////
 	/** 个人信息选项卡界面中的字段和方法 */
 
 	/** 用户头像 */
@@ -952,9 +954,10 @@ public class MainWeibo extends Activity implements ConstantUtil {
 		} else {// not know
 			iv_info_gender.setVisibility(View.GONE);
 		}
-		WeiboUtil.restoreBitmap(CacheUtil.PROFILE_CACHE_PATH, user.getProfileImageUrl(), tabinfohandler, iv_info_photo,
-				IMAGE_TYPE_PROFILE);
+		WeiboUtil.restoreBitmap(CacheUtil.PROFILE_CACHE_PATH, user.getProfileImageUrl(), tabinfohandler, iv_info_photo, IMAGE_TYPE_PROFILE);
 	}
+
+	// ////////// tab shake wweibo ////////////
 
 	/** 摇一摇选项卡界面中的字段和方法 */
 
@@ -1011,6 +1014,7 @@ public class MainWeibo extends Activity implements ConstantUtil {
 		startActivity(intent);
 	}
 
+	// /////////////// tab setting /////////////////
 	/** 设置选项卡界面中的字段和方法 */
 
 	/** 是否开启声效的checkbox */
@@ -1110,6 +1114,7 @@ public class MainWeibo extends Activity implements ConstantUtil {
 			}
 
 			protected void onPostExecute(Void result) {
+				tv_settings_spaceused.setText("缓存已清空");
 				ToastUtil.showShortToast(getApplicationContext(), "缓存图片已清空！");
 			}
 		}.execute();

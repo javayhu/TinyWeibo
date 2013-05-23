@@ -153,8 +153,7 @@ public class HttpClient implements java.io.Serializable {
 			client.getHostConfiguration().setProxy(proxyHost, proxyPort);
 			client.getParams().setAuthenticationPreemptive(true);
 			if (proxyAuthUser != null && !proxyAuthUser.equals("")) {
-				client.getState().setProxyCredentials(AuthScope.ANY,
-						new UsernamePasswordCredentials(proxyAuthUser, proxyAuthPassword));
+				client.getState().setProxyCredentials(AuthScope.ANY, new UsernamePasswordCredentials(proxyAuthUser, proxyAuthPassword));
 				log("Proxy AuthUser: " + proxyAuthUser);
 				log("Proxy AuthPassword: " + proxyAuthPassword);
 			}
@@ -367,8 +366,8 @@ public class HttpClient implements java.io.Serializable {
 				}
 			}
 
-			method.getParams()
-					.setParameter(HttpMethodParams.RETRY_HANDLER, new DefaultHttpMethodRetryHandler(3, false));
+			method.getParams().setParameter(HttpMethodParams.RETRY_HANDLER, new DefaultHttpMethodRetryHandler(3, false));
+			System.out.println("url = " + method.getURI().toString());
 			client.executeMethod(method);
 			Header[] resHeader = method.getResponseHeaders();
 			responseCode = method.getStatusCode();
@@ -382,9 +381,7 @@ public class HttpClient implements java.io.Serializable {
 			response.setResponseAsString(method.getResponseBodyAsString());
 			log(response.toString() + "\n");
 
-			if (responseCode != OK)
-
-			{
+			if (responseCode != OK) {
 				try {
 					throw new WeiboException(getCause(responseCode), response.asJSONObject(), method.getStatusCode());
 				} catch (JSONException e) {
