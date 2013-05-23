@@ -1,0 +1,333 @@
+# view res/layout/whatsnew_viewpager.xml #generated:13
+-keep class android.support.v4.view.PagerTitleStrip { <init>(...); }
+
+# view res/layout/main_weibo.xml #generated:133
+# view res/layout/whatsnew_viewpager.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class cn.edu.csu.iteliter.Appstart { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class cn.edu.csu.iteliter.DialogExit { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class cn.edu.csu.iteliter.DialogSettingsExit { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class cn.edu.csu.iteliter.HomeTopRightDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class cn.edu.csu.iteliter.HomeWeiboComment { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class cn.edu.csu.iteliter.HomeWeiboRepost { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class cn.edu.csu.iteliter.HomeWeiboWrite { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class cn.edu.csu.iteliter.HomeWeiboWriteImage { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class cn.edu.csu.iteliter.HomeWeiboWriteTopRightDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class cn.edu.csu.iteliter.MainWeibo { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class cn.edu.csu.iteliter.ResultWeiboItem { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class cn.edu.csu.iteliter.SettingsAboutUs { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class cn.edu.csu.iteliter.ShakeWeibo { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class cn.edu.csu.iteliter.WeiboWriteImage { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class cn.edu.csu.iteliter.Welcome { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class cn.edu.csu.iteliter.Whatsnew { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class cn.edu.csu.iteliter.WhatsnewDoor { <init>(...); }
+
+# view res/layout/main_tab_home.xml #generated:63
+# view res/layout/main_tab_home.xml #generated:72
+# view res/layout/main_tab_home.xml #generated:81
+# view res/layout/main_tab_home.xml #generated:90
+-keep class cn.edu.csu.iteliter.customview.TimelineListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.aviary.android.feather.FeatherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.aviary.android.feather.library.providers.FeatherContentProvider { <init>(...); }
+
+# view res/layout/feather_main.xml #generated:2
+-keep class com.aviary.android.feather.library.services.drag.DragLayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.aviary.android.feather.receivers.FeatherSystemReceiver { <init>(...); }
+
+# view res/layout/feather_adjust_content.xml #generated:6
+-keep class com.aviary.android.feather.widget.AdjustImageView { <init>(...); }
+
+# view res/layout/feather_bottombar.xml #generated:2
+-keep class com.aviary.android.feather.widget.BottombarViewFlipper { <init>(...); }
+
+# view res/layout/feather_infoscreen.xml #generated:45
+# view res/layout/feather_meme_panel.xml #generated:46
+# view res/layout/feather_meme_panel.xml #generated:72
+# view res/layout/feather_toolbar.xml #generated:35
+# view res/layout/feather_toolbar.xml #generated:76
+-keep class com.aviary.android.feather.widget.ButtonCustomFont { <init>(...); }
+
+# view res/layout/feather_crop_content.xml #generated:6
+-keep class com.aviary.android.feather.widget.CropImageView { <init>(...); }
+
+# view res/layout/feather_effect_thumb.xml #generated:2
+-keep class com.aviary.android.feather.widget.EffectThumbLayout { <init>(...); }
+
+# view res/layout/feather_borders_panel.xml #generated:51
+# view res/layout/feather_crop_panel.xml #generated:31
+# view res/layout/feather_drawing_panel.xml #generated:36
+# view res/layout/feather_drawing_panel.xml #generated:47
+# view res/layout/feather_pixelbrush_panel.xml #generated:31
+# view res/layout/feather_text_panel.xml #generated:31
+-keep class com.aviary.android.feather.widget.Gallery { <init>(...); }
+
+# view res/layout/feather_borders_panel.xml #generated:30
+# view res/layout/feather_effects_panel.xml #generated:30
+# view res/layout/feather_native_effects_panel.xml #generated:38
+# view res/layout/feather_stickers_panel.xml #generated:84
+-keep class com.aviary.android.feather.widget.HorizontalFixedListView { <init>(...); }
+
+# view res/layout/feather_enhance_panel.xml #generated:33
+# view res/layout/feather_enhance_panel.xml #generated:38
+# view res/layout/feather_enhance_panel.xml #generated:43
+# view res/layout/feather_enhance_panel.xml #generated:48
+-keep class com.aviary.android.feather.widget.ImageButtonRadioButton { <init>(...); }
+
+# view res/layout/feather_enhance_panel.xml #generated:23
+-keep class com.aviary.android.feather.widget.ImageButtonRadioGroup { <init>(...); }
+
+# view res/layout/feather_native_effects_content.xml #generated:7
+-keep class com.aviary.android.feather.widget.ImageSwitcher { <init>(...); }
+
+# view res/layout/feather_meme_content.xml #generated:37
+# view res/layout/feather_stickers_content.xml #generated:7
+# view res/layout/feather_text_content.xml #generated:19
+-keep class com.aviary.android.feather.widget.ImageViewDrawableOverlay { <init>(...); }
+
+# view res/layout/feather_spotdraw_content.xml #generated:7
+-keep class com.aviary.android.feather.widget.ImageViewSpotDraw { <init>(...); }
+
+# view res/layout/feather_drawing_content.xml #generated:8
+-keep class com.aviary.android.feather.widget.ImageViewTouchAndDraw { <init>(...); }
+
+# view res/layout/feather_pixelbrush_content.xml #generated:6
+-keep class com.aviary.android.feather.widget.ImageViewTouchBrush { <init>(...); }
+
+# view res/layout/feather_borders_content.xml #generated:14
+# view res/layout/feather_native_effects_content.xml #generated:12
+-keep class com.aviary.android.feather.widget.SwipeView { <init>(...); }
+
+# view large\res/layout-large/feather_crop_button.xml #generated:11
+# view res/layout/feather_adjust_panel.xml #generated:60
+# view res/layout/feather_adjust_panel.xml #generated:96
+# view res/layout/feather_crop_button.xml #generated:11
+# view res/layout/feather_effect_thumb.xml #generated:35
+# view res/layout/feather_egg_view.xml #generated:20
+# view res/layout/feather_getmore_thumb.xml #generated:27
+# view res/layout/feather_getmore_thumb.xml #generated:42
+# view res/layout/feather_getmore_thumb_inverted.xml #generated:26
+# view res/layout/feather_getmore_thumb_inverted.xml #generated:41
+# view res/layout/feather_image_radiobutton.xml #generated:22
+# view res/layout/feather_include_small_loader.xml #generated:16
+# view res/layout/feather_infoscreen.xml #generated:31
+# view res/layout/feather_infoscreen.xml #generated:38
+# view res/layout/feather_loading_view.xml #generated:26
+# view res/layout/feather_toolbar.xml #generated:15
+# view res/layout/feather_toolbar_title_text.xml #generated:2
+-keep class com.aviary.android.feather.widget.TextViewCustomFont { <init>(...); }
+
+# view res/layout/feather_egg_info_view.xml #generated:13
+-keep class com.aviary.android.feather.widget.ToggleButtonCustomFont { <init>(...); }
+
+# view res/layout/feather_toolbar.xml #generated:2
+-keep class com.aviary.android.feather.widget.ToolbarView { <init>(...); }
+
+# view res/layout/feather_wheel_panel.xml #generated:78
+-keep class com.aviary.android.feather.widget.Wheel { <init>(...); }
+
+# view res/layout/feather_wheel_panel.xml #generated:30
+-keep class com.aviary.android.feather.widget.WheelRadio { <init>(...); }
+
+# view res/layout/feather_workspace_screen.xml #generated:2
+-keep class com.aviary.android.feather.widget.wp.CellLayout { <init>(...); }
+
+# view res/layout/feather_bottombar.xml #generated:40
+# view res/layout/feather_native_effects_panel.xml #generated:73
+# view res/layout/feather_stickers_panel.xml #generated:55
+-keep class com.aviary.android.feather.widget.wp.Workspace { <init>(...); }
+
+# view res/layout/feather_bottombar.xml #generated:49
+# view res/layout/feather_native_effects_panel.xml #generated:87
+# view res/layout/feather_stickers_panel.xml #generated:68
+-keep class com.aviary.android.feather.widget.wp.WorkspaceIndicator { <init>(...); }
+
+# view res/xml/preference_tts.xml #generated:13
+# view res/xml/preference_tts.xml #generated:18
+-keep class com.iflytek.mscdemo.SeekBarPreference { <init>(...); }
+
+# view res/layout/feather_borders_content.xml #generated:7
+# view res/layout/feather_main.xml #generated:47
+# view res/layout/feather_native_range_effects_content.xml #generated:8
+-keep class it.sephiroth.android.library.imagezoom.ImageViewTouch { <init>(...); }
+
+# onClick res/layout/shake_weibo.xml #generated:63
+-keepclassmembers class * { *** backToMainWeibo(...); }
+
+# onClick res/layout/home_weibo_comment.xml #generated:14
+# onClick res/layout/home_weibo_repost.xml #generated:14
+# onClick res/layout/home_weibo_write.xml #generated:14
+# onClick res/layout/home_weibo_write_bak.xml #generated:14
+# onClick res/layout/home_weibo_write_bak2.xml #generated:14
+-keepclassmembers class * { *** backToMainWeiboHome(...); }
+
+# onClick res/layout/settings_aboutus.xml #generated:17
+# onClick res/layout/shake_weibo_result.xml #generated:14
+-keepclassmembers class * { *** btn_back(...); }
+
+# onClick res/layout/dialog_exit.xml #generated:46
+-keepclassmembers class * { *** btn_exit_cancle(...); }
+
+# onClick res/layout/dialog_exit.xml #generated:35
+-keepclassmembers class * { *** btn_exit_ok(...); }
+
+# onClick res/layout/main_tab_home.xml #generated:47
+-keepclassmembers class * { *** btn_home_showdialog(...); }
+
+# onClick res/layout/main_tab_home.xml #generated:16
+-keepclassmembers class * { *** btn_home_writeweibo(...); }
+
+# onClick res/layout/main_tab_settings.xml #generated:265
+-keepclassmembers class * { *** btn_settings_exit(...); }
+
+# onClick res/layout/dialog_settings_exit.xml #generated:46
+-keepclassmembers class * { *** btn_settings_exitcancle(...); }
+
+# onClick res/layout/dialog_settings_exit.xml #generated:35
+-keepclassmembers class * { *** btn_settings_exitok(...); }
+
+# onClick res/layout/whatsnew5.xml #generated:8
+-keepclassmembers class * { *** btn_start(...); }
+
+# onClick res/layout/home_weibo_write_pic.xml #generated:38
+-keepclassmembers class * { *** btn_weibowrite_showdialog(...); }
+
+# onClick res/layout/home_weibo_write_pic.xml #generated:16
+-keepclassmembers class * { *** btnback(...); }
+
+# onClick res/layout/home_weibo_write.xml #generated:94
+-keepclassmembers class * { *** choosePicture(...); }
+
+# onClick res/layout/home_weibo_write_bak.xml #generated:145
+# onClick res/layout/home_weibo_write_bak2.xml #generated:146
+-keepclassmembers class * { *** deletePhoto(...); }
+
+# onClick res/layout/home_weibo_write.xml #generated:67
+# onClick res/layout/home_weibo_write_bak.xml #generated:101
+# onClick res/layout/home_weibo_write_bak2.xml #generated:88
+-keepclassmembers class * { *** deleteWeibo(...); }
+
+# onClick res/layout/home_weibo_comment.xml #generated:101
+# onClick res/layout/home_weibo_repost.xml #generated:101
+-keepclassmembers class * { *** deleteWeiboComment(...); }
+
+# onClick res/layout/home_weibowrite_dialog_choosetype.xml #generated:20
+-keepclassmembers class * { *** ll_pickpic(...); }
+
+# onClick res/layout/home_dialog_choosetype.xml #generated:20
+-keepclassmembers class * { *** ll_showFriendsWeibo(...); }
+
+# onClick res/layout/home_dialog_choosetype.xml #generated:44
+-keepclassmembers class * { *** ll_showHomeWeibo(...); }
+
+# onClick res/layout/home_dialog_choosetype.xml #generated:92
+-keepclassmembers class * { *** ll_showMentionsWeibo(...); }
+
+# onClick res/layout/home_dialog_choosetype.xml #generated:68
+-keepclassmembers class * { *** ll_showUserWeibo(...); }
+
+# onClick res/layout/home_weibowrite_dialog_choosetype.xml #generated:43
+-keepclassmembers class * { *** ll_takepic(...); }
+
+# onClick res/layout/login.xml #generated:16
+-keepclassmembers class * { *** login_back(...); }
+
+# onClick res/layout/login.xml #generated:84
+-keepclassmembers class * { *** login_login(...); }
+
+# onClick res/layout/main_tab_settings.xml #generated:183
+-keepclassmembers class * { *** rl_settings_aboutus(...); }
+
+# onClick res/layout/main_tab_settings.xml #generated:222
+-keepclassmembers class * { *** rl_settings_clearcache(...); }
+
+# onClick res/layout/main_tab_settings.xml #generated:143
+-keepclassmembers class * { *** rl_settings_suggestion(...); }
+
+# onClick res/layout/home_weibo_write_bak.xml #generated:154
+# onClick res/layout/home_weibo_write_bak2.xml #generated:155
+-keepclassmembers class * { *** rotatePhoto(...); }
+
+# onClick res/layout/home_weibo_write.xml #generated:47
+# onClick res/layout/home_weibo_write_bak.xml #generated:47
+# onClick res/layout/home_weibo_write_bak2.xml #generated:47
+-keepclassmembers class * { *** sendWeibo(...); }
+
+# onClick res/layout/home_weibo_comment.xml #generated:46
+# onClick res/layout/home_weibo_repost.xml #generated:46
+-keepclassmembers class * { *** sendWeiboComment(...); }
+
+# onClick res/layout/main_tab_shake.xml #generated:60
+-keepclassmembers class * { *** shake_addfriend(...); }
+
+# onClick res/layout/main_tab_shake.xml #generated:186
+-keepclassmembers class * { *** shake_featureweibo(...); }
+
+# onClick res/layout/main_tab_shake.xml #generated:23
+-keepclassmembers class * { *** shake_nearbyweibo(...); }
+
+# onClick res/layout/home_weibo_write_bak.xml #generated:80
+# onClick res/layout/home_weibo_write_bak2.xml #generated:67
+-keepclassmembers class * { *** takeCameraPicture(...); }
+
+# onClick res/layout/home_weibo_write_bak.xml #generated:91
+# onClick res/layout/home_weibo_write_bak2.xml #generated:78
+-keepclassmembers class * { *** takeMobilePicture(...); }
+
+# onClick res/layout/home_weibo_write_pic.xml #generated:95
+-keepclassmembers class * { *** weibowrite_imagedelete(...); }
+
+# onClick res/layout/home_weibo_write_pic.xml #generated:81
+-keepclassmembers class * { *** weibowrite_imageok(...); }
+
+# onClick res/layout/home_weibo_write_pic.xml #generated:55
+-keepclassmembers class * { *** weibowrite_launcherAviary(...); }
+
+# onClick res/layout/home_weibo_write.xml #generated:107
+-keepclassmembers class * { *** weibowrite_voice(...); }
+
+# onClick res/layout/welcome.xml #generated:23
+-keepclassmembers class * { *** welcome_login(...); }
+
+# onClick res/layout/welcome.xml #generated:45
+-keepclassmembers class * { *** welcome_register(...); }
+
