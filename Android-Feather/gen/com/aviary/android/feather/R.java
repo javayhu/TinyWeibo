@@ -1376,7 +1376,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:bottomPadding
+          @attr name com.aviary.android.feather:bottomPadding
         */
         public static final int CellLayout_bottomPadding = 3;
         /**
@@ -1390,7 +1390,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:cells
+          @attr name com.aviary.android.feather:cells
         */
         public static final int CellLayout_cells = 6;
         /**
@@ -1406,7 +1406,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:endPadding
+          @attr name com.aviary.android.feather:endPadding
         */
         public static final int CellLayout_endPadding = 1;
         /**
@@ -1422,7 +1422,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:horizontalPadding
+          @attr name com.aviary.android.feather:horizontalPadding
         */
         public static final int CellLayout_horizontalPadding = 4;
         /**
@@ -1436,7 +1436,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:rows
+          @attr name com.aviary.android.feather:rows
         */
         public static final int CellLayout_rows = 7;
         /**
@@ -1452,7 +1452,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:startPadding
+          @attr name com.aviary.android.feather:startPadding
         */
         public static final int CellLayout_startPadding = 0;
         /**
@@ -1468,7 +1468,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:topPadding
+          @attr name com.aviary.android.feather:topPadding
         */
         public static final int CellLayout_topPadding = 2;
         /**
@@ -1484,7 +1484,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:verticalPadding
+          @attr name com.aviary.android.feather:verticalPadding
         */
         public static final int CellLayout_verticalPadding = 5;
         /** Attributes that can be used with a EffectThumbLayout.
@@ -1515,7 +1515,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:selectedHeight
+          @attr name com.aviary.android.feather:selectedHeight
         */
         public static final int EffectThumbLayout_selectedHeight = 0;
         /**
@@ -1529,7 +1529,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:selectionAnimationDuration
+          @attr name com.aviary.android.feather:selectionAnimationDuration
         */
         public static final int EffectThumbLayout_selectionAnimationDuration = 1;
         /** Attributes that can be used with a FeatherDefaultTheme.
@@ -1619,7 +1619,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fontFamilyBold
+          @attr name com.aviary.android.feather:fontFamilyBold
         */
         public static final int FeatherDefaultTheme_fontFamilyBold = 2;
         /**
@@ -1633,7 +1633,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fontFamilyLight
+          @attr name com.aviary.android.feather:fontFamilyLight
         */
         public static final int FeatherDefaultTheme_fontFamilyLight = 0;
         /**
@@ -1647,7 +1647,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fontFamilyMedium
+          @attr name com.aviary.android.feather:fontFamilyMedium
         */
         public static final int FeatherDefaultTheme_fontFamilyMedium = 1;
         /**
@@ -1659,7 +1659,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:imageSelection
+          @attr name com.aviary.android.feather:imageSelection
         */
         public static final int FeatherDefaultTheme_imageSelection = 20;
         /**
@@ -1671,7 +1671,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:optionPanelBackground
+          @attr name com.aviary.android.feather:optionPanelBackground
         */
         public static final int FeatherDefaultTheme_optionPanelBackground = 25;
         /**
@@ -1681,7 +1681,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:optionPanelBackground2
+          @attr name com.aviary.android.feather:optionPanelBackground2
         */
         public static final int FeatherDefaultTheme_optionPanelBackground2 = 26;
         /**
@@ -1697,7 +1697,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:optionPanelButtonCheckboxWidth
+          @attr name com.aviary.android.feather:optionPanelButtonCheckboxWidth
         */
         public static final int FeatherDefaultTheme_optionPanelButtonCheckboxWidth = 24;
         /**
@@ -1713,7 +1713,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:optionPanelHeight
+          @attr name com.aviary.android.feather:optionPanelHeight
         */
         public static final int FeatherDefaultTheme_optionPanelHeight = 21;
         /**
@@ -1729,7 +1729,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:optionPanelHeightWithShadow
+          @attr name com.aviary.android.feather:optionPanelHeightWithShadow
         */
         public static final int FeatherDefaultTheme_optionPanelHeightWithShadow = 23;
         /**
@@ -1745,7 +1745,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:optionPanelShadowHeight
+          @attr name com.aviary.android.feather:optionPanelShadowHeight
         */
         public static final int FeatherDefaultTheme_optionPanelShadowHeight = 22;
         /**
@@ -1757,7 +1757,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:shadowColorPrimary
+          @attr name com.aviary.android.feather:shadowColorPrimary
         */
         public static final int FeatherDefaultTheme_shadowColorPrimary = 7;
         /**
@@ -1769,7 +1769,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:shadowColorPrimaryInverse
+          @attr name com.aviary.android.feather:shadowColorPrimaryInverse
         */
         public static final int FeatherDefaultTheme_shadowColorPrimaryInverse = 8;
         /**
@@ -1783,7 +1783,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowDxMedium
+          @attr name com.aviary.android.feather:shadowDxMedium
         */
         public static final int FeatherDefaultTheme_shadowDxMedium = 12;
         /**
@@ -1797,7 +1797,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowDxSmall
+          @attr name com.aviary.android.feather:shadowDxSmall
         */
         public static final int FeatherDefaultTheme_shadowDxSmall = 9;
         /**
@@ -1811,7 +1811,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowDyMedium
+          @attr name com.aviary.android.feather:shadowDyMedium
         */
         public static final int FeatherDefaultTheme_shadowDyMedium = 13;
         /**
@@ -1825,7 +1825,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowDySmall
+          @attr name com.aviary.android.feather:shadowDySmall
         */
         public static final int FeatherDefaultTheme_shadowDySmall = 10;
         /**
@@ -1839,7 +1839,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowRadiusMedium
+          @attr name com.aviary.android.feather:shadowRadiusMedium
         */
         public static final int FeatherDefaultTheme_shadowRadiusMedium = 14;
         /**
@@ -1853,7 +1853,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowRadiusSmall
+          @attr name com.aviary.android.feather:shadowRadiusSmall
         */
         public static final int FeatherDefaultTheme_shadowRadiusSmall = 11;
         /**
@@ -1863,7 +1863,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:textAppearanceSmall
+          @attr name com.aviary.android.feather:textAppearanceSmall
         */
         public static final int FeatherDefaultTheme_textAppearanceSmall = 28;
         /**
@@ -1873,7 +1873,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:textAppearanceThumbSmall
+          @attr name com.aviary.android.feather:textAppearanceThumbSmall
         */
         public static final int FeatherDefaultTheme_textAppearanceThumbSmall = 27;
         /**
@@ -1886,7 +1886,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name android:textSizeLarge
+          @attr name com.aviary.android.feather:textSizeLarge
         */
         public static final int FeatherDefaultTheme_textSizeLarge = 17;
         /**
@@ -1899,7 +1899,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name android:textSizeMedium
+          @attr name com.aviary.android.feather:textSizeMedium
         */
         public static final int FeatherDefaultTheme_textSizeMedium = 16;
         /**
@@ -1912,7 +1912,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name android:textSizeSmall
+          @attr name com.aviary.android.feather:textSizeSmall
         */
         public static final int FeatherDefaultTheme_textSizeSmall = 15;
         /**
@@ -1926,7 +1926,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:thumbTextFontFamily
+          @attr name com.aviary.android.feather:thumbTextFontFamily
         */
         public static final int FeatherDefaultTheme_thumbTextFontFamily = 5;
         /**
@@ -1940,7 +1940,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toolbarButtonFontFamily
+          @attr name com.aviary.android.feather:toolbarButtonFontFamily
         */
         public static final int FeatherDefaultTheme_toolbarButtonFontFamily = 4;
         /**
@@ -1953,7 +1953,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name android:toolbarHeight
+          @attr name com.aviary.android.feather:toolbarHeight
         */
         public static final int FeatherDefaultTheme_toolbarHeight = 6;
         /**
@@ -1967,7 +1967,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toolbarTitleFontFamily
+          @attr name com.aviary.android.feather:toolbarTitleFontFamily
         */
         public static final int FeatherDefaultTheme_toolbarTitleFontFamily = 3;
         /**
@@ -1980,7 +1980,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
-          @attr name android:workspaceHeight
+          @attr name com.aviary.android.feather:workspaceHeight
         */
         public static final int FeatherDefaultTheme_workspaceHeight = 18;
         /**
@@ -1990,7 +1990,7 @@ in (inches), mm (millimeters).
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:workspaceIndicator
+          @attr name com.aviary.android.feather:workspaceIndicator
         */
         public static final int FeatherDefaultTheme_workspaceIndicator = 19;
         /** Attributes that can be used with a ImageButtonRadioGroup.
@@ -2026,7 +2026,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:centerButton
+          @attr name com.aviary.android.feather:centerButton
         */
         public static final int ImageButtonRadioGroup_centerButton = 2;
         /**
@@ -2040,7 +2040,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:checkedButton
+          @attr name com.aviary.android.feather:checkedButton
         */
         public static final int ImageButtonRadioGroup_checkedButton = 0;
         /**
@@ -2054,7 +2054,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:firstButton
+          @attr name com.aviary.android.feather:firstButton
         */
         public static final int ImageButtonRadioGroup_firstButton = 1;
         /**
@@ -2068,7 +2068,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:lastButton
+          @attr name com.aviary.android.feather:lastButton
         */
         public static final int ImageButtonRadioGroup_lastButton = 3;
         /**
@@ -2087,7 +2087,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>1</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name android:orientation
+          @attr name com.aviary.android.feather:orientation
         */
         public static final int ImageButtonRadioGroup_orientation = 4;
         /** Attributes that can be used with a ImageRadioButton.
@@ -2118,7 +2118,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:buttonIcon
+          @attr name com.aviary.android.feather:buttonIcon
         */
         public static final int ImageRadioButton_buttonIcon = 0;
         /**
@@ -2132,7 +2132,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:buttonText
+          @attr name com.aviary.android.feather:buttonText
         */
         public static final int ImageRadioButton_buttonText = 1;
         /**
@@ -2146,7 +2146,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:checked
+          @attr name com.aviary.android.feather:checked
         */
         public static final int ImageRadioButton_checked = 2;
         /** Attributes that can be used with a ImageViewWithSelection.
@@ -2184,7 +2184,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:selectionPaddingBottom
+          @attr name com.aviary.android.feather:selectionPaddingBottom
         */
         public static final int ImageViewWithSelection_selectionPaddingBottom = 4;
         /**
@@ -2200,7 +2200,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:selectionPaddingLeft
+          @attr name com.aviary.android.feather:selectionPaddingLeft
         */
         public static final int ImageViewWithSelection_selectionPaddingLeft = 1;
         /**
@@ -2216,7 +2216,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:selectionPaddingRight
+          @attr name com.aviary.android.feather:selectionPaddingRight
         */
         public static final int ImageViewWithSelection_selectionPaddingRight = 3;
         /**
@@ -2232,7 +2232,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:selectionPaddingTop
+          @attr name com.aviary.android.feather:selectionPaddingTop
         */
         public static final int ImageViewWithSelection_selectionPaddingTop = 2;
         /**
@@ -2242,7 +2242,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:selectionSrc
+          @attr name com.aviary.android.feather:selectionSrc
         */
         public static final int ImageViewWithSelection_selectionSrc = 0;
         /** Attributes that can be used with a ImageViewWithShadow.
@@ -2271,7 +2271,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:shadowDrawable
+          @attr name com.aviary.android.feather:shadowDrawable
         */
         public static final int ImageViewWithShadow_shadowDrawable = 0;
         /**
@@ -2285,7 +2285,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowOffsetX
+          @attr name com.aviary.android.feather:shadowOffsetX
         */
         public static final int ImageViewWithShadow_shadowOffsetX = 1;
         /**
@@ -2299,7 +2299,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:shadowOffsetY
+          @attr name com.aviary.android.feather:shadowOffsetY
         */
         public static final int ImageViewWithShadow_shadowOffsetY = 2;
         /**  used for com.aviary.android.feather.widget.TextViewCustomFont 
@@ -2326,7 +2326,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:font
+          @attr name com.aviary.android.feather:font
         */
         public static final int TextViewCustomFont_font = 0;
         /** Attributes that can be used with a Wheel.
@@ -2355,7 +2355,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:numRotations
+          @attr name com.aviary.android.feather:numRotations
         */
         public static final int Wheel_numRotations = 1;
         /**
@@ -2369,7 +2369,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:ticks
+          @attr name com.aviary.android.feather:ticks
         */
         public static final int Wheel_ticks = 0;
         /** Attributes that can be used with a WheelRadio.
@@ -2403,7 +2403,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:bigIndicatorColor
+          @attr name com.aviary.android.feather:bigIndicatorColor
         */
         public static final int WheelRadio_bigIndicatorColor = 3;
         /**
@@ -2417,7 +2417,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:bigTicks
+          @attr name com.aviary.android.feather:bigTicks
         */
         public static final int WheelRadio_bigTicks = 1;
         /**
@@ -2429,7 +2429,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:smallIndicatorColor
+          @attr name com.aviary.android.feather:smallIndicatorColor
         */
         public static final int WheelRadio_smallIndicatorColor = 4;
         /**
@@ -2443,7 +2443,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:smallTicks
+          @attr name com.aviary.android.feather:smallTicks
         */
         public static final int WheelRadio_smallTicks = 0;
         /**
@@ -2455,7 +2455,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name android:valueIndicatorColor
+          @attr name com.aviary.android.feather:valueIndicatorColor
         */
         public static final int WheelRadio_valueIndicatorColor = 2;
         /** Attributes that can be used with a Workspace.
@@ -2484,7 +2484,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:defaultScreen
+          @attr name com.aviary.android.feather:defaultScreen
         */
         public static final int Workspace_defaultScreen = 0;
         /**
@@ -2498,7 +2498,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:overscroll
+          @attr name com.aviary.android.feather:overscroll
         */
         public static final int Workspace_overscroll = 1;
         /** Attributes that can be used with a WorkspaceIndicator.
@@ -2521,7 +2521,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:indicatorId
+          @attr name com.aviary.android.feather:indicatorId
         */
         public static final int WorkspaceIndicator_indicatorId = 0;
     };
