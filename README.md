@@ -1,7 +1,8 @@
 TinyWeibo  微微博  
+=========
 [注，随着sina weibo的API变更，我已经不确定这份代码是否还可以用了，我已经不更新了，所以不用给我发邮件问我如何解决了]
 [如果有谁愿意继续将其共享下去，欢迎联系我<hujiawei090807@gmail.com>，帮我继续共享下去，谢谢]
-=========
+
 
 An Android application for Sina Weibo 一个强大的新浪微博 Android 客户端，采用TX的微信界面来开发Sina的微博客户端
 
