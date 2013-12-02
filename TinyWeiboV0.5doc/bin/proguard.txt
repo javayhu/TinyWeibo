@@ -299,7 +299,7 @@
 # onClick res/layout/main_tab_shake.xml #generated:60
 -keepclassmembers class * { *** shake_addfriend(...); }
 
-# onClick res/layout/main_tab_shake.xml #generated:186
+# onClick res/layout/main_tab_shake.xml #generated:97
 -keepclassmembers class * { *** shake_featureweibo(...); }
 
 # onClick res/layout/main_tab_shake.xml #generated:23
