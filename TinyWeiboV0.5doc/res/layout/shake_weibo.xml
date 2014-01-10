@@ -78,44 +78,7 @@
             android:text="摇周边动态"
             android:textColor="#ffffff"
             android:textSize="20sp" />
-
-        <!--
-        <ImageButton
-            android:layout_width="67dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/title_btn_right"
-            android:onClick="shake_title_autoshake"
-            android:scaleType="centerInside"
-            android:src="@drawable/shake_handshake" />
-        -->
     </RelativeLayout>
-
-    <!--
-    <SlidingDrawer
-        android:id="@+id/sd_shake"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:content="@+id/ll_shake_content"
-        android:handle="@+id/btn_shake_handle" >
-
-        <Button
-            android:id="@id/btn_shake_handle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/shake_report_dragger_up" />
-
-        <LinearLayout
-            android:id="@id/ll_shake_content"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#eee"
-            android:orientation="vertical" >
-        </LinearLayout>
-    </SlidingDrawer>
-    -->
 
     <RelativeLayout
         android:id="@+id/rl_shake_result"
@@ -152,7 +115,7 @@
             android:layout_toRightOf="@id/tv_shakeweiboitem_name"
             android:padding="10dp"
             android:src="@drawable/user_info_male" />
-
+        
         <TextView
             android:id="@+id/tv_shakeweiboitem_distance"
             android:layout_width="wrap_content"
@@ -188,13 +151,6 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center" >
-
-            <!--
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/load" />
-            -->
 
             <ProgressBar
                 style="?android:attr/progressBarStyleSmall"
