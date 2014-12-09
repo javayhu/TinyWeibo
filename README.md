@@ -113,3 +113,8 @@ email: [hujiawei090807@gmail.com](mailto:hujiawei090807@gmail.com)
 
 blog: [http://hujiaweibujidao.github.io/](http://hujiaweibujidao.github.io/)
 
+========= 帮忙投下票，真的很快的，三次点击就完了 ==========
+
+[点击进入投票网址，给第一排第二个和第三个投下票](https://campaign.gitcafe.com/pingpp-hackathon2014/candidates?page=4)
+
+
