@@ -87,6 +87,8 @@ static {
 
 ================ some old stuff ====================
 
+注：以前版本是在2012年12月写的，所以SDK有点旧了，但是还是可以正常运行的！
+
 1. Android-Feather：这个是Aviary图片处理工具的核心代码，也是TinyWeibo引用了的library，所以必须要备着<br>
    Aviary 官网：[http://www.aviary.com](http://www.aviary.com)
 
