@@ -5,6 +5,7 @@ An Android application for Sina Weibo
 
 一个强大的新浪微博 Android 客户端，采用TX的微信界面来开发Sina的微博客户端
 
+注：高仿的是微信5.0版本的微信界面
 
 #### 最新更新 (2014-12-9)
 
