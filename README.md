@@ -97,6 +97,9 @@ static {
 
 4. weibo---：下面的都是新浪微博的SDK，这个都是2012年12月的最新的SDK，这个项目中我使用两个SDK，包括新浪微博的Android SDK和Java SDK。
 
+##### 需要注意的是两个SDK都不是最新版本的！因为我只是修改了下以前开发的应用，并没有更新SDK，而且以前开发的应用对SDK做过一些改动，因为时间缘故已经忘了改了哪些。
+
+
    新浪微博接口文档：[http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2](http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2)
 
    新浪微博API测试工具：[http://open.weibo.com/tools/console](http://open.weibo.com/tools/console)
