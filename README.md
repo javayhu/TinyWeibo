@@ -13,13 +13,11 @@ An Android application for Sina Weibo
 
 #### 运行效果
 
-更加详细的界面运行效果看`app运行截图`文件夹
+更加详细的界面运行效果看`app运行截图`文件夹或者看[运行视频](http://hujiaweibujidao.qiniudn.com/tinyweibo.mp4)
 
 ![intro](http://hujiaweibujidao.qiniudn.com/intro.jpg)
 
 ![main](http://hujiaweibujidao.qiniudn.com/main.jpg)
-
-[运行视频](http://hujiaweibujidao.qiniudn.com/tinyweibo.mp4)
 
 
 #### 测试账号
@@ -95,4 +93,13 @@ static {
    新浪微博接口文档：[http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2](http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2)
 
    新浪微博API测试工具：[http://open.weibo.com/tools/console](http://open.weibo.com/tools/console)
+
+
+#### 作者
+
+2014, Hujiawei, Tsinghua University
+
+email: [hujiawei090807@gmail.com](mailto:hujiawei090807@gmail.com)
+
+blog: [http://hujiaweibujidao.github.io/](http://hujiaweibujidao.github.io/)
 
