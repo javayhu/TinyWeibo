@@ -4,4 +4,4 @@
     android:fromXDelta="0"
     android:interpolator="@android:anim/accelerate_interpolator"
     android:toXDelta="0" />
-<!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/anim/feather_app_hold.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/anim/feather_app_hold.xml -->
+<!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/anim/feather_app_hold.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/anim/feather_app_hold.xml -->

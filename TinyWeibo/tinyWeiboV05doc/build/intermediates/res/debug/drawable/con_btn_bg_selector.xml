@@ -6,4 +6,4 @@
     <item android:state_selected="true" android:drawable="@drawable/con_btn_highlight_bg" />
     <item android:drawable="@drawable/con_btn_bg" />
 </selector>
-<!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/con_btn_bg_selector.xml -->
+<!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/con_btn_bg_selector.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values-nl/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values-nl/values.xml -->
     <eat-comment/>
     <string name="adjust">Oriëntatie</string>
     <string name="apply">Hanteren</string>

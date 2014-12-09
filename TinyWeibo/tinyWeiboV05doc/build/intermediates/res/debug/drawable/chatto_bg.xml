@@ -5,4 +5,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/chatto_bg_pressed" />
     <item android:state_selected="true" android:drawable="@drawable/chatto_bg_focused" />
     <item android:drawable="@drawable/chatto_bg_normal" />
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/chatto_bg.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/chatto_bg.xml -->

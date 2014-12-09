@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values-small-land/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values-small-land/config.xml -->
     <eat-comment/>
     <integer name="featherStickerPacksCount">5</integer>
     <integer name="featherfilterPacksCount">6</integer>

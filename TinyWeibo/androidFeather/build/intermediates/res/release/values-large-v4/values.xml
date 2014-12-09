@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values-large/dimens.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values-large/dimens.xml -->
     <eat-comment/>
     <dimen name="feather_borders_panel_height">240dp</dimen>
     <dimen name="feather_borders_panel_top_bg_height">67.5dip</dimen>
@@ -32,7 +32,7 @@
     <dimen name="feather_workspace_height">127.5dip</dimen>
     <dimen name="feather_workspace_start_padding">7.5dip</dimen>
     <dimen name="feather_workspace_top_padding">15.0dip</dimen>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values-large/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values-large/config.xml -->
     <eat-comment/>
     <integer name="feather_filter_cell_width">150</integer>
 </resources>

@@ -7,4 +7,4 @@
         <item android:state_focused="false" android:state_pressed="true"
                 android:drawable="@drawable/newblog_pic_sel" />
         <item android:drawable="@drawable/newblog_pic" />
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/imagechoosebutton_bg.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/imagechoosebutton_bg.xml -->

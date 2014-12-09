@@ -9,4 +9,4 @@
 		android:drawable="@drawable/btn_bg_focused" />
 	<item
 		android:drawable="@drawable/btn_bg_normal" />
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/btn_bg.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/btn_bg.xml -->

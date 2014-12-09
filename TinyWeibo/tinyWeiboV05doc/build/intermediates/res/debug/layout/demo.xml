@@ -68,4 +68,4 @@
 			android:text="@string/text_setting"
 			android:visibility="gone" />
 	</LinearLayout>
-</LinearLayout><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/layout/demo.xml -->
+</LinearLayout><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/layout/demo.xml -->

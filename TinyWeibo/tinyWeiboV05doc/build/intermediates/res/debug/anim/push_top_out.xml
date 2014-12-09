@@ -6,4 +6,4 @@
         android:duration="200"
         android:fromYDelta="0"
         android:toYDelta="-50%p" />   
-</set><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/anim/push_top_out.xml -->
+</set><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/anim/push_top_out.xml -->

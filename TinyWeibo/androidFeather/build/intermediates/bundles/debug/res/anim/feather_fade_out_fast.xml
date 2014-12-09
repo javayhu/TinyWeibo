@@ -4,4 +4,4 @@
     android:fromAlpha="1.0"
     android:interpolator="@android:anim/accelerate_interpolator"
     android:toAlpha="0.0" />
-<!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/anim/feather_fade_out_fast.xml -->
+<!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/anim/feather_fade_out_fast.xml -->

@@ -10,4 +10,4 @@
 		android:state_pressed="true" 
 		android:drawable="@drawable/close_press" />
 </selector>
-<!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/close_selector.xml -->
+<!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/close_selector.xml -->

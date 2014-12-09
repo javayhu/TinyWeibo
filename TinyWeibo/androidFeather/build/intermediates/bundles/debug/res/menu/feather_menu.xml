@@ -19,4 +19,4 @@
 		android:id="@+id/edit_save"
 		android:title="@string/save"
 		android:showAsAction="never" />
-</menu><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/menu/feather_menu.xml -->
+</menu><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/menu/feather_menu.xml -->

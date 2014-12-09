@@ -10,4 +10,4 @@
         android:background="@android:color/transparent"
         class="com.aviary.android.feather.widget.CropImageView" />
 
-</RelativeLayout><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_crop_content.xml -->
+</RelativeLayout><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_crop_content.xml -->

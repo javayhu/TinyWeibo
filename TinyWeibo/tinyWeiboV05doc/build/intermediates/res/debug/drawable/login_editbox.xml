@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/login_edit_pressed" android:state_focused="false" android:state_pressed="true"/>
     <item android:drawable="@drawable/login_edit_normal" android:state_focused="false"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/login_editbox.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/login_editbox.xml -->

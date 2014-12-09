@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/feather_workspace_page_background_selected" android:state_selected="true"/>
     <item android:drawable="@drawable/feather_workspace_page_background_normal"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/drawable/feather_workspace_indicator.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/drawable/feather_workspace_indicator.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/drawable/feather_workspace_indicator.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/drawable/feather_workspace_indicator.xml -->

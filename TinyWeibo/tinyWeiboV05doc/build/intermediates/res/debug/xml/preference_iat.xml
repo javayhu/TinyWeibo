@@ -36,4 +36,4 @@
 		<!-- <CheckBoxPreference android:key="@string/preference_key_iat_vad" android:title="@string/preference_title_iat_vad" 
 			android:defaultValue="true" /> -->
 	</PreferenceCategory>
-</PreferenceScreen><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/xml/preference_iat.xml -->
+</PreferenceScreen><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/xml/preference_iat.xml -->

@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/mm_listitem_pressed" android:state_focused="true"/>
     <item android:drawable="@drawable/mm_listitem_pressed" android:state_focused="false" android:state_pressed="true"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/righttopdialog_listitem.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/righttopdialog_listitem.xml -->

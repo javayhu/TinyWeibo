@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values-no/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values-no/values.xml -->
     <eat-comment/>
     <string name="adjust">Orientering</string>
     <string name="apply">bruke</string>

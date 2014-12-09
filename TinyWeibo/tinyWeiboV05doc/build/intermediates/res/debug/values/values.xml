@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string-array name="borders_list">
         <item>original</item>
@@ -170,7 +170,7 @@
         <item>sepia</item>
         <item>softfocus</item>
     </string-array>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="preference_entries_iat_engine">
         <item>短信转写</item>
@@ -264,16 +264,16 @@
         <item>vinn</item>
         <item>vils</item>
     </string-array>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <attr name="orientation">
         <enum name="horizontal" value="0"/>
         <enum name="vertical" value="1"/>
     </attr>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/color.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="dialog_title_blue">#9CCCF7</color>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <color name="feather_crop_adapter_background_normal">#FF2e2e2e</color>
     <color name="feather_crop_adapter_background_selected">#FF404040</color>
@@ -299,7 +299,7 @@
     <color name="feather_text_color_primary">#FF383838</color>
     <color name="feather_text_color_secondary">#ff999999</color>
     <color name="feather_text_color_tertiary">#FF3f4040</color>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/color.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="text_num_gray">#333</color>
     <color name="transparent">#00000000</color>
@@ -315,12 +315,12 @@
     <declare-styleable name="WheelRadio"><attr format="integer" name="smallTicks"/><attr format="integer" name="bigTicks"/><attr format="color|reference" name="valueIndicatorColor"/><attr format="color|reference" name="bigIndicatorColor"/><attr format="color|reference" name="smallIndicatorColor"/></declare-styleable>
     <declare-styleable name="Workspace"><attr format="integer" name="defaultScreen"/><attr format="integer" name="overscroll"/></declare-styleable>
     <declare-styleable name="WorkspaceIndicator"><attr format="reference" name="indicatorId"/></declare-styleable>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="btn_demo_margin_h">50dip</dimen>
     <dimen name="btn_demo_padding">20dip</dimen>
     <dimen name="common_view_margin">8dip</dimen>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <dimen name="feather_border_cell_width">50dip</dimen>
     <dimen name="feather_borders_panel_height">160dp</dimen>
@@ -361,14 +361,14 @@
     <dimen name="feather_workspace_height">85.0dip</dimen>
     <dimen name="feather_workspace_start_padding">5.0dip</dimen>
     <dimen name="feather_workspace_top_padding">10.0dip</dimen>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="text_introduction_size">19sp</dimen>
     <dimen name="weibosdk_dialog_bottom_margin">10dp</dimen>
     <dimen name="weibosdk_dialog_left_margin">10dp</dimen>
     <dimen name="weibosdk_dialog_right_margin">10dp</dimen>
     <dimen name="weibosdk_dialog_top_margin">30dp</dimen>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <integer name="config_activityAnimTime">300</integer>
     <integer name="feather_adjust_tool_anim_time">350</integer>
@@ -408,34 +408,34 @@
     <integer name="is_sticker">1</integer>
     <integer name="is_tool">1</integer>
     <string name="adjust">Orientation</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_id">50d19dae</string>
     <string name="app_name">微微博</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="apply">Apply</string>
     <string name="attention">Attention</string>
     <string name="auto_enhance_label">Auto</string>
     <string name="back_enhance_label">Backlit</string>
     <string name="balance_enhance_label">Balance</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="blank_title"/>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="blemish">Blemish</string>
     <string name="border_name">Free</string>
     <string name="brightness">Brightness</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="choose_photo">Choose a Photo</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="confirm">Confirm</string>
     <string name="confirm_quit_message">Wait! You didn\'t save your work. Are you certain that you want to close this editor?</string>
     <string name="contrast">Contrast</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
     <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help me fix this by sending us error data, all you have to do is click \'OK\'.</string>
@@ -443,7 +443,7 @@
     <string name="crash_notif_ticker_text">Unexpected error, please send a report...</string>
     <string name="crash_notif_title">Feather crashed...</string>
     <string name="crash_toast_text">Ooooops! I crashed, but a report has been sent to my developer to help him fix the issue!</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="crop">Crop</string>
     <string name="custom">Custom</string>
@@ -456,11 +456,11 @@
     <string name="enhance">Enhance</string>
     <string name="enter_text_here">Enter text here</string>
     <string name="error_download_image_message">There was an error downloading the image, please try again later.</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="external_storage_na_message">sdcard is missing or currently not mounted. Cannot continue.</string>
     <string name="external_storage_na_title">Attention</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="feather_activity_not_found">Sorry, there\'s no application on your device to handle this action. Do you want to download it now from the market?</string>
     <string name="feather_borders">Borders</string>
@@ -520,41 +520,41 @@
     <string name="filter_name">Free</string>
     <string name="filter_pack_updated">A filter pack has been updated. Click ok to reload the packs list.</string>
     <string name="generic_error_title">Error</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="get_mobile_library">Get Android Library</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="get_more">Get More</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hi_res_service_label">HI-RES Service</string>
     <string name="image_details">Image Details</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="infoscreen_bottom_button">About this editor</string>
     <string name="infoscreen_submit">Learn more!</string>
     <string name="infoscreen_text">Aviary is a free SDK available for iOS and Android that allows you to add photo-editing capabilities and effects to your app with just a few lines of code.</string>
     <string name="keep_editing">Keep editing</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="launch_editor">Launch Editor</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="loading_image">Loading Image...</string>
     <string name="meme">Meme</string>
     <string name="menu_cancel">Cancel</string>
     <string name="menu_premium">Store</string>
     <string name="menu_reset">Reset</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="message_isr_warning">请先点击“上传”按钮上传语法</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="mirror">Mirror</string>
     <string name="night_enhance_label">Night</string>
     <string name="original">Original</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="poster">讯飞语音 沟通无限</string>
     <string name="preference_default_iat_engine">sms</string>
@@ -606,7 +606,7 @@
     <string name="preference_title_tts_show">显示合成界面</string>
     <string name="preference_title_tts_speed">语速</string>
     <string name="preference_title_tts_volume">音量</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="red_eye">Redeye</string>
     <string name="remove">Remove</string>
@@ -623,13 +623,13 @@
     <string name="sticker_pack_updated_2">A sticker pack has been updated. We need to reload the current panel.</string>
     <string name="sticker_pack_updated_3">A sticker pack has been updated. We need to reload the current panel. Do you want to apply the current sticker?</string>
     <string name="stickers">Stickers</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="testcontent"/>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="text">Text</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="text_iat">开始</string>
     <string name="text_iat_demo">立刻体验语音听写</string>
@@ -647,12 +647,12 @@
     <string name="text_upload">上传</string>
     <string name="title">讯飞语音控件</string>
     <string name="title_isr_warning">警告</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="tool">Tool</string>
     <string name="tool_leave_question">Are you sure you want to discard changes from this tool?</string>
     <string name="tool_name">Aviary</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string formatted="false" name="tts_toast_format">当前合成进度为%d%%，播放进度为%d%%</string>
     <string name="view_documentation">View Documentation</string>
@@ -672,12 +672,12 @@
     <string name="weibosdk_send_failed">分享失败！</string>
     <string name="weibosdk_send_sucess">分享成功！</string>
     <string name="weibosdk_share_dialog_title">新浪微博</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <string name="whiten">Whiten</string>
     <string name="yes_leave">Leave editor</string>
     <string name="zoom_mode">Zoom Mode</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AnimBottom" parent="@android:style/Animation">
         <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
@@ -712,7 +712,7 @@
         <item name="android:windowTitleSize">50dp</item>
         <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="Animations"/>
     <style name="Animations.iToast">
@@ -720,7 +720,7 @@
         <!-- <item name="android:windowEnterAnimation">@anim/toast_enter</item> -->
         <item name="android:windowExitAnimation">@anim/feather_itoast_exit</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Light"/>
     <style name="CategoryTextView" parent="@android:style/Widget.TextView">
@@ -731,7 +731,7 @@
     <style name="CustomWindowTitleBackground">
         <item name="android:background">@drawable/title_bar</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="FeatherCellLayout">
         <item name="startPadding">@dimen/feather_workspace_start_padding</item>
@@ -798,14 +798,14 @@
         -->
 
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/themes.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="FeatherDefaultTheme.Custom" parent="FeatherDefaultTheme"/>
     <style name="FeatherDefaultTheme.Dialog" parent="android:Theme.Dialog">
         <item name="dialog_layout">@null</item>
         <item name="dialog_button">@android:style/Widget.Button</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="FeatherEffectThumbText">
         <item name="android:maxLines">1</item>
@@ -1174,7 +1174,7 @@
         <item name="android:paddingLeft">2.0dip</item>
         <item name="android:paddingRight">2.0dip</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="HeadScale" parent="android:Theme.Dialog">
         <item name="android:windowAnimationStyle">@style/AnimHead</item>
@@ -1248,20 +1248,20 @@
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
         <item name="android:textColor">@color/btn_fg</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/themes.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="SpeechApiLauncherTheme" parent="@android:style/Theme">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="SpeechApiPreferenceCategory">
         <item name="android:layout">@layout/preference_category</item>
         <item name="android:shouldDisableView">false</item>
         <item name="android:selectable">false</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/themes.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="SpeechApiPreferenceTheme" parent="@android:style/Theme">
         <item name="android:windowTitleStyle">@style/SpeechApiWindowTitle</item>
@@ -1275,7 +1275,7 @@
         <item name="android:windowBackground">@drawable/window_bg</item>
         <item name="android:buttonStyle">@style/SpeechApiButton</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="SpeechApiWindowTitle">
         <item name="android:singleLine">true</item>
@@ -1284,7 +1284,7 @@
     <style name="SpeechApiWindowTitleBackground">
         <item name="android:background">@drawable/title_bar</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
@@ -1314,7 +1314,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">?attr/textSizeLarge</item>
     </style>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="chat_content_date_style">
         <item name="android:minHeight">50dp</item>

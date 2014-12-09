@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/contacts_like_notice_background_selected" android:state_selected="true"/>
     <item android:drawable="@drawable/contacts_mebutton_background_highlighted"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/title_write.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/title_write.xml -->

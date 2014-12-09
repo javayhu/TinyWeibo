@@ -6,4 +6,4 @@
     <item android:drawable="@drawable/btn_check_off_normal" android:state_checked="false"/>
     <item android:drawable="@drawable/btn_check_on_normal" android:state_checked="true"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/checkbox_selector.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/checkbox_selector.xml -->

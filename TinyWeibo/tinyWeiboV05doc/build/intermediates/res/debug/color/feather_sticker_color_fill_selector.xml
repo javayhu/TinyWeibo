@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:color="#00000000"/>
     <item android:state_pressed="true" android:color="#51ffffff"/>
     <item android:state_active="true" android:color="#00000000"/>
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/color/feather_sticker_color_fill_selector.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/color/feather_sticker_color_fill_selector.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/color/feather_sticker_color_fill_selector.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/color/feather_sticker_color_fill_selector.xml -->

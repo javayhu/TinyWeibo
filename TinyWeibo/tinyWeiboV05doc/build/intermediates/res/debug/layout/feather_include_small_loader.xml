@@ -22,4 +22,4 @@
         android:paddingLeft="5dp"
         android:text="@string/feather_loading_title" />
 
-</LinearLayout><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_include_small_loader.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_include_small_loader.xml -->
+</LinearLayout><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_include_small_loader.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_include_small_loader.xml -->

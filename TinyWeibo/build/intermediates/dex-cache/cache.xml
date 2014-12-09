@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-eb17a5a1af9fbd9c074e6e2c6c9e06c0a47bb0ef.jar"
-        jar="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jar="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/classes-cbdb14a75f876500b77da01f383e2f2022d9a04e.jar" />
+    </item>
     <item
-        dex="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/classes-4c324de5f66fc8e19fd0d54f73dbf76997372f04.jar"
-        jar="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jar="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+        sha1="e9a722fdbee05a67e559918504e7741d9098212e">
+        <dex dex="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/classes-af5311e29dfb13935d9cd2cc7f87a3b7c02a6bed.jar" />
+    </item>
     <item
-        dex="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/classes-2973e17da99e2a152f4e6e7d565ae07d2b975359.jar"
-        jar="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/classes.jar"
+        jar="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/libs/Msc.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="de5ac6662aa83cec20cff7f0ba2d477b3f26ed35"/>
+        sha1="a11eb2b2631d3538589d79e5d85e10d4dc216480">
+        <dex dex="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/Msc-557d605bf29bc8c45c54fa50a123532ffb69cfc9.jar" />
+    </item>
     <item
-        dex="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-d6a77e23b55cc06310fb28549f4681f74f8d07e8.jar"
+        jar="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-fa3efd29f4182e4333b804efd16539c51891ffb6.jar" />
+    </item>
+    <item
         jar="/Volumes/hujiawei/Users/hujiawei/Android/android_sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-d6a77e23b55cc06310fb28549f4681f74f8d07e8.jar" />
+    </item>
     <item
-        dex="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/android-feather-library-564ff1bcaf355b7950c1fce631eb901b17d38f41.jar"
-        jar="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/libs/android-feather-library.jar"
+        jar="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/libs/commons-httpclient-3.1.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="7b2e97daa9a51a8f0f71c0bb2a3861f68af980b8"/>
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/commons-httpclient-3.1-02a9430b0bf19be85e13b6261060444eccc4a1f8.jar" />
+    </item>
     <item
-        dex="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/Msc-c2978ec8bdacaaa6a56efb6ff003b49420d23d73.jar"
-        jar="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/libs/Msc.jar"
+        jar="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/libs/android-feather-library.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="a11eb2b2631d3538589d79e5d85e10d4dc216480"/>
-    <item
-        dex="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/commons-httpclient-3.1-9aa5443747088fe47ce9841e14ef4cf2a40d123e.jar"
-        jar="/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/libs/commons-httpclient-3.1.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="964cd74171f427720480efdec40a7c7f6e58426a"/>
+        sha1="7b2e97daa9a51a8f0f71c0bb2a3861f68af980b8">
+        <dex dex="/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/pre-dexed/debug/android-feather-library-bb5ae7e9c0670514180bd586ea16b018710b9753.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

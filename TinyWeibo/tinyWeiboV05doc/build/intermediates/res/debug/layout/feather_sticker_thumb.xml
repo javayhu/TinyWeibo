@@ -18,4 +18,4 @@
         android:layout_gravity="center_vertical|center_horizontal"
         android:scaleType="center" />
 
-</RelativeLayout><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_sticker_thumb.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_sticker_thumb.xml -->
+</RelativeLayout><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_sticker_thumb.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_sticker_thumb.xml -->

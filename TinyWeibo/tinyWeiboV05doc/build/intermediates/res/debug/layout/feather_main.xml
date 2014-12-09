@@ -81,4 +81,4 @@
             layout="@layout/feather_bottombar" />
     </RelativeLayout>
 
-</com.aviary.android.feather.library.services.drag.DragLayer><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_main.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_main.xml -->
+</com.aviary.android.feather.library.services.drag.DragLayer><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_main.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_main.xml -->

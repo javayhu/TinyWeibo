@@ -67,4 +67,4 @@
             android:src="@drawable/aviary_logo_small" />
     </RelativeLayout>
 
-</com.aviary.android.feather.widget.BottombarViewFlipper><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_bottombar.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_bottombar.xml -->
+</com.aviary.android.feather.widget.BottombarViewFlipper><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_bottombar.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/layout/feather_bottombar.xml -->

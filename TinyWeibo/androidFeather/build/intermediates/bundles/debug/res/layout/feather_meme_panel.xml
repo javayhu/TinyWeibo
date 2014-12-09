@@ -93,4 +93,4 @@
         <include layout="@layout/feather_shadow_top" android:layout_alignParentTop="true" />
     </RelativeLayout>
 
-</LinearLayout><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_meme_panel.xml -->
+</LinearLayout><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_meme_panel.xml -->

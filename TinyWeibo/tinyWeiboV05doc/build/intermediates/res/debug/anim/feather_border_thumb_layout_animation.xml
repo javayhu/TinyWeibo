@@ -3,4 +3,4 @@
     android:animation="@android:anim/fade_in"
     android:delay="10%" >
 
-</layoutAnimation><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/anim/feather_border_thumb_layout_animation.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/anim/feather_border_thumb_layout_animation.xml -->
+</layoutAnimation><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/anim/feather_border_thumb_layout_animation.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/anim/feather_border_thumb_layout_animation.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
     <eat-comment/>
     <string-array name="borders_list">
         <item>original</item>
@@ -19,7 +19,7 @@
         <item>bulge</item>
         <item>halftone</item>
     </string-array>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
     <eat-comment/>
     <integer-array name="feather_border_panel_colors">
         <item>0xff000000</item>
@@ -157,7 +157,7 @@
         <item>0xFFFFFFFF</item>
         <item>0xFFFFFFFF</item>
     </integer-array>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
     <eat-comment/>
     <string-array name="filters_list">
         <item>undefined</item>
@@ -174,13 +174,13 @@
         <item>sepia</item>
         <item>softfocus</item>
     </string-array>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/attrs.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/attrs.xml -->
     <eat-comment/>
     <attr name="orientation">
         <enum name="horizontal" value="0"/>
         <enum name="vertical" value="1"/>
     </attr>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/colors.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="feather_crop_adapter_background_normal">#FF2e2e2e</color>
     <color name="feather_crop_adapter_background_selected">#FF404040</color>
@@ -218,7 +218,7 @@
     <declare-styleable name="WheelRadio"><attr format="integer" name="smallTicks"/><attr format="integer" name="bigTicks"/><attr format="color|reference" name="valueIndicatorColor"/><attr format="color|reference" name="bigIndicatorColor"/><attr format="color|reference" name="smallIndicatorColor"/></declare-styleable>
     <declare-styleable name="Workspace"><attr format="integer" name="defaultScreen"/><attr format="integer" name="overscroll"/></declare-styleable>
     <declare-styleable name="WorkspaceIndicator"><attr format="reference" name="indicatorId"/></declare-styleable>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="feather_border_cell_width">50dip</dimen>
     <dimen name="feather_borders_panel_height">160dp</dimen>
@@ -259,7 +259,7 @@
     <dimen name="feather_workspace_height">85.0dip</dimen>
     <dimen name="feather_workspace_start_padding">5.0dip</dimen>
     <dimen name="feather_workspace_top_padding">10.0dip</dimen>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
     <eat-comment/>
     <integer name="config_activityAnimTime">300</integer>
     <integer name="feather_adjust_tool_anim_time">350</integer>
@@ -294,13 +294,13 @@
     <integer name="feather_text_highlight_stroke_width">2</integer>
     <integer name="feather_text_padding">30</integer>
     <integer name="feather_text_selected_color">0</integer>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
     <eat-comment/>
     <integer name="is_border">1</integer>
     <integer name="is_filter">1</integer>
     <integer name="is_sticker">1</integer>
     <integer name="is_tool">1</integer>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="adjust">Orientation</string>
     <string name="apply">Apply</string>
@@ -330,10 +330,10 @@
     <string name="feather_close">Close</string>
     <string name="feather_crash_toast_text">Oops! I crashed, but a report has been sent to my developer to help him fix the issue!</string>
     <string name="feather_delete">Delete</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
     <eat-comment/>
     <string name="feather_effect_pack_font">fonts/Roboto-Light.ttf</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="feather_effects_beginning_of_list">Beginning of the list</string>
     <string name="feather_effects_end_of_list">End of the list</string>
@@ -350,10 +350,10 @@
     <string name="feather_error_saving_image">Oops, there was an error while saving the image.</string>
     <string name="feather_image_saved_in">Image saved in %1$s. Do you want to see the saved image?</string>
     <string name="feather_loading_title">Loading</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
     <eat-comment/>
     <string name="feather_meme_default_font">meme/Impact.ttf</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="feather_plugin_border_bulge_name">Bulge</string>
     <string name="feather_plugin_border_charcoal_name">Charcoal</string>
@@ -384,10 +384,10 @@
     <string name="feather_plugin_filter_undefined_name">Original</string>
     <string name="feather_plugin_filter_vivid_name">Vivid</string>
     <string name="feather_save_progress">Saving...</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
     <eat-comment/>
     <string name="feather_sticker_pack_font">fonts/Roboto-Light.ttf</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="feather_tool_temperature">Warmth</string>
     <string name="feather_update">Update</string>
@@ -430,7 +430,7 @@
     <string name="whiten">Whiten</string>
     <string name="yes_leave">Leave editor</string>
     <string name="zoom_mode">Zoom Mode</string>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/styles.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Animations"/>
     <style name="Animations.iToast">

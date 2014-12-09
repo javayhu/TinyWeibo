@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values-mdpi/dimens.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values-mdpi/dimens.xml -->
     <eat-comment/>
     <dimen name="feather_text_default_size">22sp</dimen>
     <dimen name="feather_text_drawable_min_size">18sp</dimen>

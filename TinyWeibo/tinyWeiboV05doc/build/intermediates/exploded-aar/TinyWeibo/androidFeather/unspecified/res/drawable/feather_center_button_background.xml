@@ -27,4 +27,4 @@
 	<!-- default state -->	
 	<item
 		android:drawable="@drawable/feather_center_button_background_normal" />		
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/drawable/feather_center_button_background.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/drawable/feather_center_button_background.xml -->

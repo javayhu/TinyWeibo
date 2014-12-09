@@ -22,4 +22,4 @@
 	<item android:state_pressed="true" android:drawable="@drawable/weibosdk_bg_delwords_sel" />
 	<item android:state_selected="true" android:drawable="@drawable/weibosdk_bg_delwords_sel" />
 	<item android:drawable="@drawable/weibosdk_bg_delwords_nor" />
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/weibosdk_bg_delwords.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/weibosdk_bg_delwords.xml -->

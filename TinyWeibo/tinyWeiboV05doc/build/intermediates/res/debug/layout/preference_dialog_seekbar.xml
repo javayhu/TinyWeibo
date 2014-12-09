@@ -24,4 +24,4 @@
 			android:layout_height="wrap_content"
 			android:textColor="?android:attr/textColorSecondary" />
 	</LinearLayout>
-</ScrollView><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/layout/preference_dialog_seekbar.xml -->
+</ScrollView><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/layout/preference_dialog_seekbar.xml -->

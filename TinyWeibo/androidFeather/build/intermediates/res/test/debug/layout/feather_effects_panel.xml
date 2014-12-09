@@ -38,4 +38,4 @@
     
     <include layout="@layout/feather_include_small_loader" android:layout_width="match_parent" android:layout_height="match_parent" />
 
-</RelativeLayout><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_effects_panel.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/layout/feather_effects_panel.xml -->
+</RelativeLayout><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_effects_panel.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/layout/feather_effects_panel.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/values-vi/values.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/values-vi/values.xml -->
     <eat-comment/>
     <string name="adjust">Hướng</string>
     <string name="apply">Áp dụng</string>

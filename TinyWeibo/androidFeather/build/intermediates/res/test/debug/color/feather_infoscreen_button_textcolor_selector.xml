@@ -5,4 +5,4 @@
     <item android:state_pressed="true" android:color="#FFFFFFFF"/>
     <item android:color="#FF616161"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/color/feather_infoscreen_button_textcolor_selector.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/color/feather_infoscreen_button_textcolor_selector.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/color/feather_infoscreen_button_textcolor_selector.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/color/feather_infoscreen_button_textcolor_selector.xml -->

@@ -6,4 +6,4 @@
     <item android:drawable="@drawable/title_button_selected" android:state_selected="true"></item>
     <item android:drawable="@drawable/title_button_normal"></item>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/titlebutton_bg.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/titlebutton_bg.xml -->

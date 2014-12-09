@@ -4,4 +4,4 @@
     <item android:state_pressed="true" android:drawable="@drawable/btn_style_zero_pressed" />
     <item android:state_focused="true" android:drawable="@drawable/btn_style_zero_focused" />
     <item android:drawable="@drawable/btn_style_zero_normal" />
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/btn_style_red.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/btn_style_red.xml -->

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values-ldpi/colors.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values-ldpi/colors.xml -->
     <eat-comment/>
     <color name="feather_shadow_black">@android:color/transparent</color>
     <color name="feather_shadow_white">@android:color/transparent</color>
-    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values-ldpi/config.xml -->
+    <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/values-ldpi/config.xml -->
     <eat-comment/>
     <dimen name="feather_default_panel_checkbox_padding_bottom">4dp</dimen>
     <integer name="feather_crop_min_size">20</integer>

@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/mm_title_back_pressed" android:state_selected="true"/>
     <item android:drawable="@drawable/mm_title_back_normal"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/title_btn_back.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/title_btn_back.xml -->

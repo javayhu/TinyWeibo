@@ -10,4 +10,4 @@
 	<!-- default state -->	
 	<item
 		android:drawable="@drawable/feather_clear_btn" />		
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/drawable/feather_clear_button_selector.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/drawable/feather_clear_button_selector.xml -->

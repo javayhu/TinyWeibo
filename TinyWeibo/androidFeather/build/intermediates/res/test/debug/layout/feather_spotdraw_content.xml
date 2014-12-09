@@ -26,4 +26,4 @@
         android:visibility="invisible"
         android:src="@drawable/feather_lens_normal" />    
     
-</RelativeLayout><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/layout/feather_spotdraw_content.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/layout/feather_spotdraw_content.xml -->
+</RelativeLayout><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/src/main/res/layout/feather_spotdraw_content.xml --><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/layout/feather_spotdraw_content.xml -->

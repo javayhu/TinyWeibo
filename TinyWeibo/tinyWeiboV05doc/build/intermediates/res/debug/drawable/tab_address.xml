@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/tab_address_pressed" android:state_checked="true" android:state_enabled="true"/>
     <item android:drawable="@drawable/tab_address_normal"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/tab_address.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/tab_address.xml -->

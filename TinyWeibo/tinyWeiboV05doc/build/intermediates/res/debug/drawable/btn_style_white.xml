@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/btn_style_two_focused" android:state_focused="true"/>
     <item android:drawable="@drawable/btn_style_two_normal" android:state_focused="false"/>
 
-</selector><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/btn_style_white.xml -->
+</selector><!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/drawable/btn_style_white.xml -->

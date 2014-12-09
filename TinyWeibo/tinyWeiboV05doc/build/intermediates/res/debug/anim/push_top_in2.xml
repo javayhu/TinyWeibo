@@ -8,4 +8,4 @@
         android:toYScale="1.0"   
         android:pivotX="0"  
         android:pivotY="10%"  
-        android:duration="200" /> <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/anim/push_top_in2.xml -->
+        android:duration="200" /> <!-- From: file:/Volumes/hujiawei/Users/hujiawei/git/TinyWeibo/TinyWeibo/tinyWeiboV05doc/src/main/res/anim/push_top_in2.xml -->
