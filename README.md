@@ -19,11 +19,7 @@ An Android application for Sina Weibo
 
 ![main](http://hujiaweibujidao.qiniudn.com/main.jpg)
 
-运行视频
-
-<video width="480" height="800" controls>
-  <source src="http://hujiaweibujidao.qiniudn.com/tinyweibo.mp4" type="video/mp4">
-</video>
+[运行视频](http://hujiaweibujidao.qiniudn.com/tinyweibo.mp4)
 
 
 #### 测试账号
