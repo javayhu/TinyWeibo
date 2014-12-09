@@ -1,0 +1,223 @@
+<resources>
+
+    <string name="app_name">微微博</string>
+
+    <!-- sinaweibo android demo -->
+    <string name="weibosdk_attention">注意</string>
+    <string name="weibosdk_delete_all">是否要删除这条微博？</string>
+    <string name="weibosdk_ok">是</string>
+    <string name="weibosdk_cancel">否</string>
+    <string name="weibosdk_app_name">com_weibo_android</string>
+    <string name="weibosdk_send">发送</string>
+    <string name="weibosdk_photo">拍照</string>
+    <string name="weibosdk_close">关闭</string>
+    <string name="weibosdk_share_dialog_title">新浪微博</string>
+    <string name="weibosdk_please_login">请登录！</string>
+    <string name="weibosdk_send_sucess">分享成功！</string>
+    <string name="weibosdk_send_failed">分享失败！</string>
+    <string name="weibosdk_del_pic">是否删除图片？</string>
+    <string name="weibosdk_comment">评论</string>
+    <string name="weibosdk_forward">转发</string>
+    <string name="weibosdk_fav">收藏</string>
+    <string name="testcontent"></string>
+
+    <!-- aviary acra -->
+    <string name="crash_dialog_text">An unexpected error occurred forcing the application to stop. Please help me fix this by sending us error data, all you have to do is click \'OK\'.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_notif_ticker_text">Unexpected error, please send a report...</string>
+    <string name="crash_notif_title">Feather crashed...</string>
+    <string name="crash_notif_text">Please click here to help fix the issue.</string>
+    <string name="launch_editor">Launch Editor</string>
+    <string name="choose_photo">Choose a Photo</string>
+    <string name="external_storage_na_title">Attention</string>
+    <string name="external_storage_na_message">sdcard is missing or currently not mounted. Cannot continue.</string>
+    <string name="get_mobile_library">Get Android Library</string>
+    <string name="view_documentation">View Documentation</string>
+    <string name="hi_res_service_label">HI-RES Service</string>
+    <string name="crash_toast_text">Ooooops! I crashed, but a report has been sent to my developer to help him fix the issue!</string>
+    <string name="image_details">Image Details</string>
+
+    <!-- msc -->
+    <string name="app_id">50d19dae</string>
+    <string name="blank_title"></string>
+    <string name="title">讯飞语音控件</string>
+    <string name="poster">讯飞语音 沟通无限</string>
+    <string name="text_isr_category">语音识别</string>
+    <string name="text_tts_category">语音合成</string>
+    <string name="text_isr_introduction">语音识别技术，是将声音转换为文字，让机器能够听懂您的声音。它包括语音听写技术和关键词识别技术，前者可以翻译出您说的日常用语、热词、视频和地点信息等，而后者能够针对性的识别您指定的关键词集。</string>
+    <string name="text_tts_introduction">语音合成技术，是将文字转换为声音，让机器能够把文字读给您听。</string>
+    <string name="text_iat">开始</string>
+    <string name="text_isr">识别</string>
+    <string name="text_tts">合成</string>
+    <string name="text_setting">设置</string>
+    <string name="text_upload">上传</string>
+    <string name="text_iat_demo">立刻体验语音听写</string>
+    <string name="text_isr_demo">立刻体验关键词识别</string>
+    <string name="text_tts_demo">立刻体验语音合成</string>
+    <string name="text_tts_source">科大讯飞作为中国最大的智能语音技术提供商，在智能语音技术领域有着长期的研究积累，并在中文语音合成、语音识别、口语评测等多项技术上拥有国际领先的成果。科大讯飞是我国唯一以语音技术为产业化方向的“国家863计划成果产业化基地”、“国家规划布局内重点软件企业”、“国家火炬计划重点高新技术企业”、“国家高技术产业化示范工程”，并被信息产业部确定为中文语音交互技术标准工作组组长单位，牵头制定中文语音技术标准。</string>
+    <string name="text_isr_hint">\t开始识别前请先点击“上传”按钮上传语法。\n\t开启识别对话框后，您可以说：\n\t\t阿里山龙胆、浦发银行、邯郸钢铁、齐鲁石化、东北高速、武钢股份、东风汽车、中国国贸、首创股份、上海机场、钢联股份、民生银行、上港集箱、宝钢股份、福建高速、歌华有线、哈飞股份、宁波联合、浙江广厦、江西纸业、黄山旅游、万东医疗、中技贸易...</string>
+    <string name="title_isr_warning">警告</string>
+    <string name="message_isr_warning">请先点击“上传”按钮上传语法</string>
+    <!-- tts -->
+    <string name="preference_title_tts">合成设置</string>
+    <string name="preference_key_tts_show">tts_show</string>
+    <string name="preference_title_tts_show">显示合成界面</string>
+    <string name="preference_key_tts_role">tts_role</string>
+    <string name="preference_title_tts_role">发音人</string>
+
+    <string-array name="preference_entries_tts_role">
+        <item>晓燕</item>
+        <item>晓宇</item>
+        <item>小研</item>
+        <item>小琪</item>
+        <item>小峰</item>
+        <item>小梅</item>
+        <item>小莉</item>
+        <item>小蓉</item>
+        <item>小芸</item>
+        <item>小坤</item>
+        <item>小强 </item>
+        <item>小莹</item>
+        <item>小新</item>
+        <item>楠楠</item>
+        <item>老孙</item>
+    </string-array>
+    <string-array name="preference_values_tts_role">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_dialog_title_tts_role">选择发音人</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_music">tts_music</string>
+    <string name="preference_title_tts_music">背景音乐</string>
+
+    <string-array name="preference_entries_tts_music">
+        <item>无背景音乐</item>
+        <item>背景音乐1</item>
+    </string-array>
+    <string-array name="preference_values_tts_music">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="preference_default_tts_music">0</string>
+    <string name="preference_dialog_title_tts_music">选择背景音乐</string>
+    <!-- iat -->
+    <string name="preference_title_iat">听写设置</string>
+    <string name="preference_key_iat_engine">iat_engine</string>
+    <string name="preference_title_iat_engine">听写引擎</string>
+
+    <string-array name="preference_entries_iat_engine">
+        <item>短信转写</item>
+        <item>地图搜索</item>
+        <item>热词搜索</item>
+        <item>视频搜索</item>
+    </string-array>
+    <string-array name="preference_values_iat_engine">
+        <item>sms</item>
+        <item>poi</item>
+        <item>vsearch</item>
+        <item>video</item>
+    </string-array>
+
+    <string name="preference_default_iat_engine">sms</string>
+    <string name="preference_dialog_title_iat_engine">选择听写引擎</string>
+    <string name="preference_key_poi_province">poi_province</string>
+    <string name="preference_title_poi_province">地图搜索省份</string>
+
+    <string-array name="preference_values_poi_province">
+        <item>全选</item>
+    </string-array>
+
+    <string name="preference_default_poi_province">全选</string>
+    <string name="preference_dialog_title_poi_province">选择地图搜索省份</string>
+    <string name="preference_key_poi_city">poi_city</string>
+    <string name="preference_title_poi_city">地图搜索城市</string>
+
+    <string-array name="preference_values_poi_city">
+        <item>全选</item>
+    </string-array>
+
+    <string name="preference_default_poi_city">全选</string>
+    <string name="preference_dialog_title_poi_city">选择地图搜索城市</string>
+    <string name="preference_key_iat_rate">iat_rate</string>
+    <string name="preference_title_iat_rate">录音采样率</string>
+
+    <string-array name="preference_entries_iat_rate">
+        <item>8K</item>
+        <item>11K</item>
+        <item>16K</item>
+        <item>22K</item>
+    </string-array>
+    <string-array name="preference_values_iat_rate">
+        <item>rate8k</item>
+        <item>rate11k</item>
+        <item>rate16k</item>
+        <item>rate22k</item>
+    </string-array>
+
+    <string name="preference_default_iat_rate">rate16k</string>
+    <string name="preference_dialog_title_iat_rate">选择听写采样率</string>
+    <string name="preference_key_iat_vad">iat_vad</string>
+    <string name="preference_title_iat_vad">启用端点检测</string>
+    <!-- isr -->
+    <string name="preference_title_isr">识别设置</string>
+    <string name="preference_key_isr_engine">isr_engine</string>
+    <string name="preference_title_isr_engine">识别引擎</string>
+
+    <string-array name="preference_entries_isr_engine">
+        <item>歌手识别</item>
+        <item>地名识别</item>
+    </string-array>
+    <string-array name="preference_values_isr_engine">
+        <item>sms</item>
+        <item>poi</item>
+    </string-array>
+
+    <string name="preference_default_isr_engine">sms</string>
+    <string name="preference_dialog_title_isr_engine">选择识别引擎</string>
+    <string name="preference_key_isr_rate">isr_rate</string>
+    <string name="preference_title_isr_rate">识别采样率</string>
+
+    <string-array name="preference_entries_isr_rate">
+        <item>8K</item>
+        <item>11K</item>
+        <item>16K</item>
+        <item>22K</item>
+    </string-array>
+    <string-array name="preference_values_isr_rate">
+        <item>rate8k</item>
+        <item>rate11k</item>
+        <item>rate16k</item>
+        <item>rate22k</item>
+    </string-array>
+
+    <string name="preference_default_isr_rate">rate16k</string>
+    <string name="preference_dialog_title_isr_rate">选择识别采样率</string>
+    <string name="preference_key_isr_vad">isr_vad</string>
+    <string name="preference_title_isr_vad">启用端点检测</string>
+    <string name="tts_toast_format" formatted="false">当前合成进度为%d%%，播放进度为%d%%</string>
+
+</resources>

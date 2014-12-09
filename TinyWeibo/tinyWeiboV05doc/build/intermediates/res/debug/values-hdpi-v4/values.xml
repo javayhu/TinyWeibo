@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values-hdpi-v4/values.xml -->
+    <eat-comment/>
+    <dimen name="feather_effects_cell_width">64dip</dimen>
+</resources>

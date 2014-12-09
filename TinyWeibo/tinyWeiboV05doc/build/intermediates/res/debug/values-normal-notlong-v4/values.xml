@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/src/main/res/values-normal-notlong/dimens.xml -->
+    <eat-comment/>
+    <dimen name="weibosdk_dialog_bottom_margin">15dp</dimen>
+    <dimen name="weibosdk_dialog_left_margin">30dp</dimen>
+    <dimen name="weibosdk_dialog_right_margin">30dp</dimen>
+    <dimen name="weibosdk_dialog_top_margin">30dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values-normal-land-v4/values.xml -->
+    <eat-comment/>
+    <integer name="featherStickerPacksCount">7</integer>
+    <integer name="featherfilterPacksCount">8</integer>
+    <integer name="toolCount">8</integer>
+</resources>

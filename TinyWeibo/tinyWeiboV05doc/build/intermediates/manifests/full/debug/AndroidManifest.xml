@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.csu.iteliter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+
+    <!-- android:versionCode="1" -->
+    <!-- android:versionName="1.0" -->
+
+
+    <!-- <uses-sdk -->
+    <!-- android:minSdkVersion="8" -->
+    <!-- android:targetSdkVersion="15" /> -->
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:icon="@drawable/tinyweibo_96"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.edu.csu.iteliter.Appstart"
+            android:theme="@style/Anim_style2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.edu.csu.iteliter.Welcome"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name="cn.edu.csu.iteliter.Whatsnew"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name="cn.edu.csu.iteliter.WhatsnewDoor"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name="cn.edu.csu.iteliter.MainWeibo"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name="cn.edu.csu.iteliter.HomeTopRightDialog"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name="cn.edu.csu.iteliter.HomeWeiboComment"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="cn.edu.csu.iteliter.HomeWeiboRepost"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="cn.edu.csu.iteliter.HomeWeiboWrite"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="cn.edu.csu.iteliter.HomeWeiboWriteTopRightDialog"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name="cn.edu.csu.iteliter.WeiboWriteImage"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="cn.edu.csu.iteliter.ViewWeiboItem"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="cn.edu.csu.iteliter.ShakeWeibo"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="cn.edu.csu.iteliter.SettingsAboutUs"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="cn.edu.csu.iteliter.DialogExit"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="cn.edu.csu.iteliter.DialogSettingsExit"
+            android:theme="@style/MyDialogStyle" />
+
+        <!-- msc -->
+        <!-- AVIARY FEATHER ENTRIES -->
+        <!-- feather activity must be defined here -->
+        <activity
+            android:name="com.aviary.android.feather.FeatherActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:largeHeap="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/FeatherDefaultTheme.Custom" />
+        <!-- tools:replace="android:theme" -->
+        <!-- android:screenOrientation -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:screenOrientation="unspecified" -->
+        <!-- android:theme="@style/FeatherDefaultTheme.Custom" -->
+        <!-- hjw: change theme here 这里很重要，如果不是这个style会报错！ -->
+
+
+        <!-- receiver. gets the newly installed plugins -->
+        <receiver
+            android:name="com.aviary.android.feather.receivers.FeatherSystemReceiver"
+            android:exported="true"
+            android:process=":feather_system_receiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required for the hi-res image processing -->
+        <!-- authorities can have the value you prefer -->
+        <!-- 如果没有会报异常，一个关于hiresservice的异常 -->
+        <provider
+            android:name="com.aviary.android.feather.library.providers.FeatherContentProvider"
+            android:authorities="com.aviary.launcher.HiResProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

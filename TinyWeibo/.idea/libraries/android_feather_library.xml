@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-feather-library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/androidFeather/libs/android-feather-library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TinyWeibo.iml" filepath="$PROJECT_DIR$/TinyWeibo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidFeather/androidFeather.iml" filepath="$PROJECT_DIR$/androidFeather/androidFeather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinyWeiboV05doc/tinyWeiboV05doc.iml" filepath="$PROJECT_DIR$/tinyWeiboV05doc/tinyWeiboV05doc.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,258 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mm_listitem"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/iv_weiboitem_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/userinfo_image_frame"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sinaweibo64" />
+
+    <TextView
+        android:id="@+id/tv_weiboitem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_weiboitem_head"
+        android:padding="10dp"
+        android:text="Name"
+        android:textColor="#000" />
+
+    <LinearLayout
+        android:id="@+id/ll_weiboitem_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weiboitem_name"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/iv_weiboitem_head"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_weiboitem_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_info_male" />
+
+        <ImageView
+            android:id="@+id/iv_weiboitem_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/user_info_verifed" />
+
+        <TextView
+            android:id="@+id/tv_weiboitem_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="location"
+            android:textColor="#ff6600" />
+
+        <ImageView
+            android:id="@+id/iv_weiboitem_forword"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/weibo_forward_dark" />
+
+        <TextView
+            android:id="@+id/tv_weiboitem_forwordnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="0"
+            android:textColor="#ff6600" />
+
+        <ImageView
+            android:id="@+id/iv_weiboitem_comment"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/weibo_comment_dark" />
+
+        <TextView
+            android:id="@+id/tv_weiboitem_commentnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="0"
+            android:textColor="#ff6600" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_weiboitem_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Time"
+        android:textColor="#ff6600" />
+
+    <TextView
+        android:id="@+id/tv_weiboitem_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_weiboitem_info"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@id/iv_weiboitem_head"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:text="Content"
+        android:textColor="#666" />
+
+    <ImageView
+        android:id="@+id/iv_weiboitem_statusImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tv_weiboitem_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/iv_weiboitem_head"
+        android:src="@drawable/weiboitem_pic_loading" />
+
+    <LinearLayout
+        android:id="@+id/ll_weiboitem_source"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_weiboitem_statusImage"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/iv_weiboitem_head"
+        android:background="@drawable/weiboitem_retweet_bg"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_weiboitem_sourceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="sourcename"
+                android:textColor="#36c" />
+
+            <TextView
+                android:id="@+id/tv_weiboitem_sourceContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:text="sourceContent"
+                android:textColor="#666" />
+
+            <ImageView
+                android:id="@+id/iv_weiboitem_sourceImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/weiboitem_pic_loading" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_weiboitem_from"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_weiboitem_source"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/iv_weiboitem_head" >
+
+        <TextView
+            android:id="@+id/tv_weiboitem_fromtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:text="来自: "
+            android:textColor="#36c" />
+
+        <TextView
+            android:id="@+id/tv_weiboitem_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/tv_weiboitem_fromtext"
+            android:text="新浪微博"
+            android:textColor="#666" />
+
+        <LinearLayout
+            android:id="@+id/ll_weiboitem_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/con_btn_bg_selector"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/weibo_comment_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:text="评论"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_weiboitem_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_toLeftOf="@id/ll_weiboitem_comment"
+            android:background="@drawable/con_btn_bg_selector"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/weibo_forward_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:text="转发"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

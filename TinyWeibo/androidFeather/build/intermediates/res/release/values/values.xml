@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
+    <eat-comment/>
+    <string-array name="borders_list">
+        <item>original</item>
+        <item>justround</item>
+        <item>smooth</item>
+        <item>lines</item>
+        <item>instant</item>
+        <item>charcoal</item>
+        <item>fade</item>
+        <item>shadow</item>
+        <item>round</item>
+        <item>vignette</item>
+        <item>rect</item>
+        <item>torn</item>
+        <item>torn3</item>
+        <item>bulge</item>
+        <item>halftone</item>
+    </string-array>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <integer-array name="feather_border_panel_colors">
+        <item>0xff000000</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+    </integer-array>
+    <integer-array name="feather_brush_sizes">
+        <item>7</item>
+        <item>12</item>
+        <item>17</item>
+        <item>22</item>
+        <item>27</item>
+        <item>32</item>
+    </integer-array>
+    <string-array name="feather_crop_names">
+        <item>original</item>
+        <item>square</item>
+        <item>custom</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>2.35:1</item>
+    </string-array>
+    <string-array name="feather_crop_values">
+        <item>-1:-1</item>
+        <item>1:1</item>
+        <item>0:0</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>235:100</item>
+    </string-array>
+    <integer-array name="feather_default_colors">
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff000000</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+        <item>0xffffffff</item>
+    </integer-array>
+    <integer-array name="feather_spot_brush_sizes">
+        <item>7</item>
+        <item>12</item>
+        <item>17</item>
+        <item>22</item>
+        <item>27</item>
+        <item>32</item>
+    </integer-array>
+    <integer-array name="feather_text_fill_colors">
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+    </integer-array>
+    <integer-array name="feather_text_stroke_colors">
+        <item>0xFFFFFFFF</item>
+        <item>0xFF000000</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFF000000</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFFFFFFFF</item>
+    </integer-array>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
+    <eat-comment/>
+    <string-array name="filters_list">
+        <item>undefined</item>
+        <item>singe</item>
+        <item>vivid</item>
+        <item>sancarmen</item>
+        <item>purple</item>
+        <item>thresh</item>
+        <item>aqua</item>
+        <item>andy</item>
+        <item>edgewood</item>
+        <item>joecool</item>
+        <item>bw</item>
+        <item>sepia</item>
+        <item>softfocus</item>
+    </string-array>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr name="orientation">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="feather_crop_adapter_background_normal">#FF2e2e2e</color>
+    <color name="feather_crop_adapter_background_selected">#FF404040</color>
+    <color name="feather_crop_adapter_border_normal">#ff535353</color>
+    <color name="feather_crop_adapter_border_selected">#FF626262</color>
+    <color name="feather_crop_highlight">#ffe1e1e1</color>
+    <color name="feather_crop_highlight_down">#ffe1e1e1</color>
+    <color name="feather_crop_highlight_internal">#c9e1e1e1</color>
+    <color name="feather_crop_highlight_internal_down">#7fe1e1e1</color>
+    <color name="feather_crop_highlight_outside">#99000000</color>
+    <color name="feather_crop_highlight_outside_down">#99000000</color>
+    <color name="feather_default_panel_color">#FF404040</color>
+    <color name="feather_drawable_highlight_down">#FFFFA500</color>
+    <color name="feather_drawable_highlight_focus">#FFA0CE00</color>
+    <color name="feather_inline_loading_color">#AAFFFFFF</color>
+    <color name="feather_panel_bottom_line_color">#FFEAEAEA</color>
+    <color name="feather_panel_top_line_color">#FFEAEAEA</color>
+    <color name="feather_rotate_highlight_grid_stroke_color">#ffe1e1e1</color>
+    <color name="feather_rotate_highlight_outside">#88000000</color>
+    <color name="feather_rotate_highlight_stroke_color">#ffe1e1e1</color>
+    <color name="feather_shadow_black">@android:color/black</color>
+    <color name="feather_shadow_white">@android:color/white</color>
+    <color name="feather_text_color_primary">#FF383838</color>
+    <color name="feather_text_color_secondary">#ff999999</color>
+    <color name="feather_text_color_tertiary">#FF3f4040</color>
+    <declare-styleable name="CellLayout"><attr format="dimension" name="startPadding"/><attr format="dimension" name="endPadding"/><attr format="dimension" name="topPadding"/><attr format="dimension" name="bottomPadding"/><attr format="dimension" name="horizontalPadding"/><attr format="dimension" name="verticalPadding"/><attr format="integer" name="cells"/><attr format="integer" name="rows"/></declare-styleable>
+    <declare-styleable name="EffectThumbLayout"><attr format="dimension" name="selectedHeight"/><attr format="integer" name="selectionAnimationDuration"/></declare-styleable>
+    <declare-styleable name="FeatherDefaultTheme"><attr format="string" name="fontFamilyLight"/><attr format="string" name="fontFamilyMedium"/><attr format="string" name="fontFamilyBold"/><attr format="string" name="toolbarTitleFontFamily"/><attr format="string" name="toolbarButtonFontFamily"/><attr format="string" name="thumbTextFontFamily"/><attr format="reference|dimension" name="toolbarHeight"/><attr format="reference|color" name="shadowColorPrimary"/><attr format="reference|color" name="shadowColorPrimaryInverse"/><attr format="float" name="shadowDxSmall"/><attr format="float" name="shadowDySmall"/><attr format="float" name="shadowRadiusSmall"/><attr format="float" name="shadowDxMedium"/><attr format="float" name="shadowDyMedium"/><attr format="float" name="shadowRadiusMedium"/><attr format="reference|dimension" name="textSizeSmall"/><attr format="reference|dimension" name="textSizeMedium"/><attr format="reference|dimension" name="textSizeLarge"/><attr format="reference|dimension" name="workspaceHeight"/><attr format="reference" name="workspaceIndicator"/><attr format="reference|color" name="imageSelection"/><attr format="dimension" name="optionPanelHeight"/><attr format="dimension" name="optionPanelShadowHeight"/><attr format="dimension" name="optionPanelHeightWithShadow"/><attr format="dimension" name="optionPanelButtonCheckboxWidth"/><attr format="reference|color" name="optionPanelBackground"/><attr format="reference" name="optionPanelBackground2"/><attr format="reference" name="textAppearanceThumbSmall"/><attr format="reference" name="textAppearanceSmall"/></declare-styleable>
+    <declare-styleable name="ImageButtonRadioGroup"><attr format="integer" name="checkedButton"/><attr format="integer" name="firstButton"/><attr format="integer" name="centerButton"/><attr format="integer" name="lastButton"/><attr name="orientation"/></declare-styleable>
+    <declare-styleable name="ImageRadioButton"><attr format="integer" name="buttonIcon"/><attr format="integer" name="buttonText"/><attr format="boolean" name="checked"/></declare-styleable>
+    <declare-styleable name="ImageViewWithSelection"><attr format="reference" name="selectionSrc"/><attr format="dimension" name="selectionPaddingLeft"/><attr format="dimension" name="selectionPaddingTop"/><attr format="dimension" name="selectionPaddingRight"/><attr format="dimension" name="selectionPaddingBottom"/></declare-styleable>
+    <declare-styleable name="ImageViewWithShadow"><attr format="reference|color" name="shadowDrawable"/><attr format="integer" name="shadowOffsetX"/><attr format="integer" name="shadowOffsetY"/></declare-styleable>
+    <declare-styleable name="TextViewCustomFont"><attr format="string" name="font"/></declare-styleable>
+    <declare-styleable name="Wheel"><attr format="integer" name="ticks"/><attr format="integer" name="numRotations"/></declare-styleable>
+    <declare-styleable name="WheelRadio"><attr format="integer" name="smallTicks"/><attr format="integer" name="bigTicks"/><attr format="color|reference" name="valueIndicatorColor"/><attr format="color|reference" name="bigIndicatorColor"/><attr format="color|reference" name="smallIndicatorColor"/></declare-styleable>
+    <declare-styleable name="Workspace"><attr format="integer" name="defaultScreen"/><attr format="integer" name="overscroll"/></declare-styleable>
+    <declare-styleable name="WorkspaceIndicator"><attr format="reference" name="indicatorId"/></declare-styleable>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="feather_border_cell_width">50dip</dimen>
+    <dimen name="feather_borders_panel_height">160dp</dimen>
+    <dimen name="feather_borders_panel_top_bg_height">45dip</dimen>
+    <dimen name="feather_default_panel_checkbox_padding_bottom">8dp</dimen>
+    <dimen name="feather_default_panel_checkbox_width">56dp</dimen>
+    <dimen name="feather_effects_cell_width">70dip</dimen>
+    <dimen name="feather_effects_getmore_bubble_margin_right">10dip</dimen>
+    <dimen name="feather_effects_getmore_bubble_text_padding_bottom">3dip</dimen>
+    <dimen name="feather_effects_getmore_image_margin_left">8dip</dimen>
+    <dimen name="feather_effects_getmore_image_margin_right">12dip</dimen>
+    <dimen name="feather_effects_getmore_image_margin_top">8dip</dimen>
+    <dimen name="feather_effects_getmore_text_margin_right">2dip</dimen>
+    <dimen name="feather_effects_panel_height">160dip</dimen>
+    <dimen name="feather_effects_panel_thumb_padding">3dip</dimen>
+    <dimen name="feather_effects_panel_thumb_rounded_border">6dip</dimen>
+    <dimen name="feather_effects_panel_thumb_shadow_offset">1dip</dimen>
+    <dimen name="feather_effects_panel_thumb_shadow_radius">1dip</dimen>
+    <dimen name="feather_effects_panel_thumb_stroke_size">3px</dimen>
+    <dimen name="feather_effects_panel_top_bg_height">67dip</dimen>
+    <dimen name="feather_effects_thumb_selection_height">7dip</dimen>
+    <dimen name="feather_options_panel_height">100dp</dimen>
+    <dimen name="feather_options_panel_height_shadow">5dp</dimen>
+    <dimen name="feather_options_panel_height_with_shadow">105dp</dimen>
+    <dimen name="feather_panel_bottom_line_height">4dp</dimen>
+    <dimen name="feather_panel_top_line_height">4dp</dimen>
+    <dimen name="feather_panel_top_line_height_dark">4dp</dimen>
+    <dimen name="feather_text_default_size">26sp</dimen>
+    <dimen name="feather_text_drawable_min_size">22sp</dimen>
+    <dimen name="feather_text_size_large">20sp</dimen>
+    <dimen name="feather_text_size_medium">14sp</dimen>
+    <dimen name="feather_text_size_small">12sp</dimen>
+    <dimen name="feather_toolbar_height">50dp</dimen>
+    <dimen name="feather_workspace_bottom_padding">0.0dip</dimen>
+    <dimen name="feather_workspace_cell_horizontal_padding">5.0dip</dimen>
+    <dimen name="feather_workspace_cell_vertical_padding">5.0dip</dimen>
+    <dimen name="feather_workspace_end_padding">5.0dip</dimen>
+    <dimen name="feather_workspace_height">85.0dip</dimen>
+    <dimen name="feather_workspace_start_padding">5.0dip</dimen>
+    <dimen name="feather_workspace_top_padding">10.0dip</dimen>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <integer name="config_activityAnimTime">300</integer>
+    <integer name="feather_adjust_tool_anim_time">350</integer>
+    <integer name="feather_adjust_tool_enable_3d_flip">0</integer>
+    <integer name="feather_adjust_tool_reset_anim_time">200</integer>
+    <integer name="feather_border_panel_selected_color">0</integer>
+    <integer name="feather_bottombar_close_offset">0</integer>
+    <integer name="feather_bottombar_open_offset">0</integer>
+    <integer name="feather_brightness_live_preview">1</integer>
+    <integer name="feather_brush_softValue">1</integer>
+    <integer name="feather_cannister_in_animation_duration">300</integer>
+    <integer name="feather_config_bottom_animTime">300</integer>
+    <integer name="feather_config_infoscreen_animTime">650</integer>
+    <integer name="feather_config_mediumAnimTime">300</integer>
+    <integer name="feather_config_portraitRows">1</integer>
+    <integer name="feather_config_shortAnimTime">200</integer>
+    <integer name="feather_crop_highlight_internal_stroke_width">1</integer>
+    <integer name="feather_crop_highlight_stroke_width">2</integer>
+    <integer name="feather_crop_invert_policy">0</integer>
+    <integer name="feather_crop_min_size">100</integer>
+    <integer name="feather_crop_selected_value">2</integer>
+    <integer name="feather_effect_selection_animation_duration">80</integer>
+    <integer name="feather_rotate_enable_free_rotate">1</integer>
+    <integer name="feather_rotate_highlight_grid_stroke_width">1</integer>
+    <integer name="feather_rotate_highlight_stroke_width">2</integer>
+    <integer name="feather_spot_brush_selected_size_index">2</integer>
+    <integer name="feather_sticker_highlight_ellipse">10</integer>
+    <integer name="feather_sticker_highlight_minsize">100</integer>
+    <integer name="feather_sticker_highlight_padding">16</integer>
+    <integer name="feather_sticker_highlight_stroke_width">2</integer>
+    <integer name="feather_text_highlight_ellipse">10</integer>
+    <integer name="feather_text_highlight_stroke_width">2</integer>
+    <integer name="feather_text_padding">30</integer>
+    <integer name="feather_text_selected_color">0</integer>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/plugin.xml -->
+    <eat-comment/>
+    <integer name="is_border">1</integer>
+    <integer name="is_filter">1</integer>
+    <integer name="is_sticker">1</integer>
+    <integer name="is_tool">1</integer>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="adjust">Orientation</string>
+    <string name="apply">Apply</string>
+    <string name="attention">Attention</string>
+    <string name="auto_enhance_label">Auto</string>
+    <string name="back_enhance_label">Backlit</string>
+    <string name="balance_enhance_label">Balance</string>
+    <string name="blemish">Blemish</string>
+    <string name="border_name">Free</string>
+    <string name="brightness">Brightness</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_quit_message">Wait! You didn\'t save your work. Are you certain that you want to close this editor?</string>
+    <string name="contrast">Contrast</string>
+    <string name="crop">Crop</string>
+    <string name="custom">Custom</string>
+    <string name="draw">Draw</string>
+    <string name="edit_bottom_text">Edit Bottom Text</string>
+    <string name="edit_top_text">Edit Top Text</string>
+    <string name="edit_your_photo">Photo Editor</string>
+    <string name="effect_loading_message">Applying effects</string>
+    <string name="effects">Effects</string>
+    <string name="enhance">Enhance</string>
+    <string name="enter_text_here">Enter text here</string>
+    <string name="error_download_image_message">There was an error downloading the image, please try again later.</string>
+    <string name="feather_activity_not_found">Sorry, there\'s no application on your device to handle this action. Do you want to download it now from the market?</string>
+    <string name="feather_borders">Borders</string>
+    <string name="feather_close">Close</string>
+    <string name="feather_crash_toast_text">Oops! I crashed, but a report has been sent to my developer to help him fix the issue!</string>
+    <string name="feather_delete">Delete</string>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <string name="feather_effect_pack_font">fonts/Roboto-Light.ttf</string>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="feather_effects_beginning_of_list">Beginning of the list</string>
+    <string name="feather_effects_end_of_list">End of the list</string>
+    <string name="feather_effects_error_loading_pack">Sorry, there was an error loading the plugin.</string>
+    <string name="feather_effects_error_loading_packs">Sorry, there was an error loading some of the effect packs.</string>
+    <string name="feather_effects_error_update_editor">Sorry, you must update the Aviary editor to use this plugin.</string>
+    <string name="feather_effects_error_update_editors">This app needs to be updated to work with your installed effect packs. Tap \"update\" to update it in Google Play.</string>
+    <string name="feather_effects_error_update_multiple">You need to update this app and some of the installed effect packs. Tap \"update\" to update them all in Google Play. This app may not not perform correctly unless everything is updated to the latest version</string>
+    <string name="feather_effects_error_update_pack">Sorry, you must update the plugin to continue.</string>
+    <string name="feather_effects_error_update_packs">One or more installed effect packs need to be updated. Tap \"update\" to update them all in Google Play. Alternatively, you can click any effect thumbnail marked with an update icon to update the pack it came from in Google Play.</string>
+    <string name="feather_effects_unknown_error">Unknown error</string>
+    <string name="feather_effects_unknown_errors">Unknown errors.</string>
+    <string name="feather_error_saving_aviary_folder">Oops, there was an error trying to save the image to the Aviary folder. Do you want to try to save it to the default camera folder?</string>
+    <string name="feather_error_saving_image">Oops, there was an error while saving the image.</string>
+    <string name="feather_image_saved_in">Image saved in %1$s. Do you want to see the saved image?</string>
+    <string name="feather_loading_title">Loading</string>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <string name="feather_meme_default_font">meme/Impact.ttf</string>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="feather_plugin_border_bulge_name">Bulge</string>
+    <string name="feather_plugin_border_charcoal_name">Charcoal</string>
+    <string name="feather_plugin_border_fade_name">Fade</string>
+    <string name="feather_plugin_border_halftone_name">Halftone</string>
+    <string name="feather_plugin_border_instant_name">Instant</string>
+    <string name="feather_plugin_border_justround_name">Just Round</string>
+    <string name="feather_plugin_border_lines_name">Lines</string>
+    <string name="feather_plugin_border_original_name">Original</string>
+    <string name="feather_plugin_border_rect_name">Rect</string>
+    <string name="feather_plugin_border_round_name">Round</string>
+    <string name="feather_plugin_border_shadow_name">Shadow</string>
+    <string name="feather_plugin_border_smooth_name">Smooth</string>
+    <string name="feather_plugin_border_torn3_name">Torn 3</string>
+    <string name="feather_plugin_border_torn_name">Torn</string>
+    <string name="feather_plugin_border_vignette_name">Vignette</string>
+    <string name="feather_plugin_filter_andy_name">Strato</string>
+    <string name="feather_plugin_filter_aqua_name">Aqua</string>
+    <string name="feather_plugin_filter_bw_name">B&amp;W</string>
+    <string name="feather_plugin_filter_edgewood_name">Laguna</string>
+    <string name="feather_plugin_filter_joecool_name">Ventura</string>
+    <string name="feather_plugin_filter_purple_name">Indiglow</string>
+    <string name="feather_plugin_filter_sancarmen_name">San Carmen</string>
+    <string name="feather_plugin_filter_sepia_name">Sepia</string>
+    <string name="feather_plugin_filter_singe_name">Singe</string>
+    <string name="feather_plugin_filter_softfocus_name">Soft Focus</string>
+    <string name="feather_plugin_filter_thresh_name">Concorde</string>
+    <string name="feather_plugin_filter_undefined_name">Original</string>
+    <string name="feather_plugin_filter_vivid_name">Vivid</string>
+    <string name="feather_save_progress">Saving...</string>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <string name="feather_sticker_pack_font">fonts/Roboto-Light.ttf</string>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="feather_tool_temperature">Warmth</string>
+    <string name="feather_update">Update</string>
+    <string name="feather_view_file">View Image</string>
+    <string name="filter_name">Free</string>
+    <string name="filter_pack_updated">A filter pack has been updated. Click ok to reload the packs list.</string>
+    <string name="generic_error_title">Error</string>
+    <string name="get_more">Get More</string>
+    <string name="infoscreen_bottom_button">About this editor</string>
+    <string name="infoscreen_submit">Learn more!</string>
+    <string name="infoscreen_text">Aviary is a free SDK available for iOS and Android that allows you to add photo-editing capabilities and effects to your app with just a few lines of code.</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="loading_image">Loading Image...</string>
+    <string name="meme">Meme</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="menu_premium">Store</string>
+    <string name="menu_reset">Reset</string>
+    <string name="mirror">Mirror</string>
+    <string name="night_enhance_label">Night</string>
+    <string name="original">Original</string>
+    <string name="red_eye">Redeye</string>
+    <string name="remove">Remove</string>
+    <string name="revert_dialog_message">You\'re about to lose all the changes you\'ve made. Are you sure you want to revert to the original image?</string>
+    <string name="revert_dialog_title">Revert to original?</string>
+    <string name="rotate">Rotate</string>
+    <string name="saturation">Saturation</string>
+    <string name="save">Done</string>
+    <string name="sharpen">Sharpness</string>
+    <string name="square">Square</string>
+    <string name="sticker_delete_message">Are you sure you want to remove this sticker?</string>
+    <string name="sticker_name">Demo</string>
+    <string name="sticker_pack_updated_1">A sticker pack has been updated. Click ok to reload the packs list.</string>
+    <string name="sticker_pack_updated_2">A sticker pack has been updated. We need to reload the current panel.</string>
+    <string name="sticker_pack_updated_3">A sticker pack has been updated. We need to reload the current panel. Do you want to apply the current sticker?</string>
+    <string name="stickers">Stickers</string>
+    <string name="text">Text</string>
+    <string name="tool">Tool</string>
+    <string name="tool_leave_question">Are you sure you want to discard changes from this tool?</string>
+    <string name="tool_name">Aviary</string>
+    <string name="whiten">Whiten</string>
+    <string name="yes_leave">Leave editor</string>
+    <string name="zoom_mode">Zoom Mode</string>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Animations"/>
+    <style name="Animations.iToast">
+
+        <!-- <item name="android:windowEnterAnimation">@anim/toast_enter</item> -->
+        <item name="android:windowExitAnimation">@anim/feather_itoast_exit</item>
+    </style>
+    <style name="FeatherCellLayout">
+        <item name="startPadding">@dimen/feather_workspace_start_padding</item>
+        <item name="endPadding">@dimen/feather_workspace_end_padding</item>
+        <item name="topPadding">@dimen/feather_workspace_top_padding</item>
+        <item name="bottomPadding">@dimen/feather_workspace_bottom_padding</item>
+        <item name="horizontalPadding">@dimen/feather_workspace_cell_horizontal_padding</item>
+        <item name="verticalPadding">@dimen/feather_workspace_cell_vertical_padding</item>
+        <item name="cells">4</item>
+        <item name="rows">@integer/feather_config_portraitRows</item>
+    </style>
+    <style name="FeatherDefault">
+        <item name="android:layerType">hardware</item>
+    </style>
+    <style name="FeatherDefaultTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:textColorPrimary">@color/feather_text_color_primary_selector</item>
+        <item name="android:textColorSecondary">@color/feather_text_color_secondary</item>
+        <item name="android:textColorTertiary">@color/feather_text_color_tertiary</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Title</item>
+        <item name="textAppearanceSmall">@style/TextAppearance.Text</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+        <item name="textAppearanceThumbSmall">@style/TextAppearance.ThumbText</item>
+        <item name="textSizeSmall">@dimen/feather_text_size_small</item>
+        <item name="textSizeMedium">@dimen/feather_text_size_medium</item>
+        <item name="textSizeLarge">@dimen/feather_text_size_large</item>
+        <item name="shadowDxSmall">0.0</item>
+        <item name="shadowDySmall">1.0</item>
+        <item name="shadowRadiusSmall">1.0</item>
+        <item name="shadowDxMedium">0.0</item>
+        <item name="shadowDyMedium">2.0</item>
+        <item name="shadowRadiusMedium">2.0</item>
+        <item name="shadowColorPrimary">@color/feather_shadow_white</item>
+        <item name="shadowColorPrimaryInverse">@color/feather_shadow_black</item>
+        <item name="toolbarHeight">@dimen/feather_toolbar_height</item>
+        <item name="workspaceHeight">@dimen/feather_workspace_height</item>
+        <item name="workspaceIndicator">@drawable/feather_workspace_indicator</item>
+        <item name="imageSelection">@drawable/feather_default_glow</item>
+
+        <!-- option panel height (without shadow) -->
+        <item name="optionPanelHeight">@dimen/feather_options_panel_height</item>
+
+        <!-- option panel height (including shadow) -->
+        <item name="optionPanelShadowHeight">@dimen/feather_options_panel_height_shadow</item>
+
+        <!-- option panel shadow height -->
+        <item name="optionPanelHeightWithShadow">@dimen/feather_options_panel_height_with_shadow</item>
+
+        <!-- option panel checkbox button default width -->
+        <item name="optionPanelButtonCheckboxWidth">@dimen/feather_default_panel_checkbox_width</item>
+
+        <!-- default background color for option panel -->
+        <item name="optionPanelBackground">@color/feather_default_panel_color</item>
+
+        <!-- alternate background for option panel -->
+        <item name="optionPanelBackground2">@drawable/feather_options_panel_background2</item>
+
+        <!--
+		<item name="fontFamilyLight">fonts/Roboto-Light.ttf</item>
+	    <item name="toolbarTitleFontFamily">fonts/Roboto-Medium.ttf</item>
+	    <item name="toolbarButtonFontFamily">fonts/Roboto-Medium.ttf</item>
+	    <item name="thumbTextFontFamily">fonts/Roboto-Medium.ttf</item>
+        -->
+
+    </style>
+    <style name="FeatherEffectThumbText">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceThumbSmall</item>
+        <item name="font">?attr/thumbTextFontFamily</item>
+    </style>
+    <style name="FeatherFilterPack" parent="FeatherStickerPack">
+    </style>
+    <style name="FeatherHiddenEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/feather_hidden_edit_text</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:editable">true</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:inputType">textNoSuggestions</item>
+        <item name="android:maxHeight">1sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">1sp</item>
+    </style>
+    <style name="FeatherInfoScreen">
+        <item name="android:shadowColor">?attr/shadowColorPrimary</item>
+        <item name="android:shadowDx">?attr/shadowDxSmall</item>
+        <item name="android:shadowDy">?attr/shadowDySmall</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusSmall</item>
+        <item name="font">?attr/fontFamilyLight</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="FeatherInfoScreen.Content">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FF858889</item>
+        <item name="android:textSize">?attr/textSizeMedium</item>
+    </style>
+    <style name="FeatherInfoScreen.Version">
+        <item name="android:textColor">#FF999999</item>
+        <item name="android:textSize">?attr/textSizeSmall</item>
+    </style>
+    <style name="FeatherInlineProgressText">
+        <item name="font">?attr/fontFamilyLight</item>
+        <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/feather_inline_loading_color</item>
+    </style>
+    <style name="FeatherOptionPanel">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+    <style name="FeatherOptionPanel.Background">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:background">?attr/optionPanelBackground</item>
+    </style>
+    <style name="FeatherOptionPanel.Background2">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:background">?attr/optionPanelBackground2</item>
+    </style>
+    <style name="FeatherOptionPanel.BorderTopBackground">
+        <item name="android:layout_height">@dimen/feather_borders_panel_top_bg_height</item>
+    </style>
+    <style name="FeatherOptionPanel.BottomLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/feather_panel_bottom_line_height</item>
+        <item name="android:background">@color/feather_panel_bottom_line_color</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumb">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:layout_marginBottom">0dip</item>
+        <item name="shadowDrawable">@null</item>
+        <item name="shadowOffsetX">7</item>
+        <item name="shadowOffsetY">7</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore"/>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.MainImage">
+        <item name="android:layout_marginLeft">@dimen/feather_effects_getmore_image_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/feather_effects_getmore_image_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/feather_effects_getmore_image_margin_top</item>
+        <item name="android:background">@drawable/feather_getmore_image_bg</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/feather_more_button_selector</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.MainImage.Inverted">
+        <item name="android:layout_marginLeft">@dimen/feather_effects_getmore_image_margin_right</item>
+        <item name="android:layout_marginRight">@dimen/feather_effects_getmore_image_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/feather_effects_getmore_image_margin_top</item>
+        <item name="android:background">@drawable/feather_getmore_image_bg</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.MainLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/feather_effects_panel_top_bg_height</item>
+        <item name="android:background">@drawable/feather_getmore_layout_bg</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.MainLayout.Inverted">
+        <item name="android:background">@drawable/feather_getmore_layout_bg_inverted</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.MainText" parent="FeatherOptionPanel.ThumbText">
+        <item name="android:layout_marginRight">@dimen/feather_effects_getmore_text_margin_right</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.MainText.Inverted">
+        <item name="android:layout_marginRight">0dip</item>
+        <item name="android:layout_marginLeft">@dimen/feather_effects_getmore_text_margin_right</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.RibbonLayout">
+        <item name="android:background">@drawable/feather_ribbon_bg</item>
+        <item name="android:layout_marginRight">@dimen/feather_effects_getmore_bubble_margin_right</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.RibbonLayout.Inverted">
+        <item name="android:layout_marginLeft">@dimen/feather_effects_getmore_bubble_margin_right</item>
+        <item name="android:layout_marginRight">0dip</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.RibbonText" parent="FeatherOptionPanel.ThumbText">
+        <item name="android:textSize">?attr/textSizeMedium</item>
+        <item name="android:paddingBottom">@dimen/feather_effects_getmore_bubble_text_padding_bottom</item>
+        <item name="android:paddingTop">0dip</item>
+    </style>
+    <style name="FeatherOptionPanel.EffectThumbGetMore.RibbonText.Inverted"/>
+    <style name="FeatherOptionPanel.EffectThumbLayout">
+        <item name="selectedHeight">@dimen/feather_effects_thumb_selection_height</item>
+        <item name="selectionAnimationDuration">@integer/feather_effect_selection_animation_duration</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+    </style>
+    <style name="FeatherOptionPanel.ThumbText">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimaryInverse</item>
+        <item name="android:shadowDx">?attr/shadowDxMedium</item>
+        <item name="android:shadowDy">?attr/shadowDyMedium</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusMedium</item>
+        <item name="android:textAppearance">?attr/textAppearanceThumbSmall</item>
+        <item name="font">?attr/thumbTextFontFamily</item>
+    </style>
+    <style name="FeatherOptionPanel.TopLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/feather_panel_top_line_height</item>
+        <item name="android:background">@color/feather_panel_top_line_color</item>
+    </style>
+    <style name="FeatherOptionPanelButton" parent="@style/FeatherOptionPanelImageButton">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="font">?attr/fontFamilyLight</item>
+        <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/feather_option_panel_text_selector</item>
+    </style>
+    <style name="FeatherOptionPanelImageButton">
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">@drawable/feather_default_button_background</item>
+    </style>
+    <style name="FeatherOptionPanelImageButtons">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+    <style name="FeatherOptionPanelImageButtons.Center">
+        <item name="android:background">@drawable/feather_center_button_background</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="FeatherOptionPanelImageButtons.Left">
+        <item name="android:background">@drawable/feather_left_button_background</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="FeatherOptionPanelImageButtons.Right">
+        <item name="android:background">@drawable/feather_right_button_background</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="FeatherOptionPanelMemeButton">
+        <item name="android:background">@drawable/feather_meme_button_bg</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:shadowDx">?attr/shadowDxMedium</item>
+        <item name="android:shadowDy">?attr/shadowDyMedium</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusMedium</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimaryInverse</item>
+        <item name="android:ellipsize">end</item>
+        <item name="font">?attr/fontFamilyMedium</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:paddingRight">26dip</item>
+        <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/feather_option_panel_text_selector</item>
+    </style>
+    <style name="FeatherOptionPanelTextButton">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:shadowDx">?attr/shadowDxMedium</item>
+        <item name="android:shadowDy">?attr/shadowDyMedium</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusMedium</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimaryInverse</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="font">?attr/fontFamilyLight</item>
+        <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+    </style>
+    <style name="FeatherOptionPanelWheel">
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="FeatherOptionPanelWheel.Background">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/feather_toolbar_background</item>
+    </style>
+    <style name="FeatherPanelCustomCheckbox">
+        <item name="android:layout_width">?attr/optionPanelButtonCheckboxWidth</item>
+        <item name="android:paddingBottom">@dimen/feather_default_panel_checkbox_padding_bottom</item>
+    </style>
+    <style name="FeatherPanelCustomCheckbox.Text">
+        <item name="android:ellipsize">middle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceThumbSmall</item>
+        <item name="android:shadowDx">?attr/shadowDxMedium</item>
+        <item name="android:shadowDy">?attr/shadowDyMedium</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusMedium</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimaryInverse</item>
+        <item name="font">?attr/fontFamilyLight</item>
+    </style>
+    <style name="FeatherRadioButton"/>
+    <style name="FeatherRadioButton.Auto">
+        <item name="buttonIcon">@drawable/feather_icon_enhance</item>
+        <item name="buttonText">@string/auto_enhance_label</item>
+    </style>
+    <style name="FeatherRadioButton.Back">
+        <item name="buttonIcon">@drawable/feather_icon_backlight_enhance</item>
+        <item name="buttonText">@string/back_enhance_label</item>
+    </style>
+    <style name="FeatherRadioButton.Balance">
+        <item name="buttonIcon">@drawable/feather_icon_balance_enhance</item>
+        <item name="buttonText">@string/balance_enhance_label</item>
+    </style>
+    <style name="FeatherRadioButton.Night">
+        <item name="buttonIcon">@drawable/feather_icon_night_enhance</item>
+        <item name="buttonText">@string/night_enhance_label</item>
+    </style>
+    <style name="FeatherRadioButtonGroup">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="firstButton">@drawable/feather_left_button_background</item>
+        <item name="lastButton">@drawable/feather_right_button_background</item>
+        <item name="centerButton">@drawable/feather_center_button_background</item>
+    </style>
+    <style name="FeatherStickerPack">
+        <item name="android:drawablePadding">5dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">0dip</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:shadowDx">?attr/shadowDxMedium</item>
+        <item name="android:shadowDy">?attr/shadowDyMedium</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusMedium</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimaryInverse</item>
+        <item name="android:textAppearance">?attr/textAppearanceThumbSmall</item>
+    </style>
+    <style name="FeatherStickersIndicator">
+        <item name="indicatorId">@drawable/feather_workspace_indicator</item>
+    </style>
+    <style name="FeatherStickersWorkspace">
+        <item name="defaultScreen">0</item>
+        <item name="overscroll">2</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="FeatherTool">
+        <item name="android:background">@drawable/feather_default_tool_selector</item>
+        <item name="font">?attr/fontFamilyLight</item>
+    </style>
+    <style name="FeatherTool.Info">
+        <item name="android:textSize">?attr/textSizeMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/feather_infoscreen_button_textcolor_selector</item>
+        <item name="font">?attr/toolbarButtonFontFamily</item>
+    </style>
+    <style name="FeatherToolText">
+        <item name="android:textAppearance">?attr/textAppearanceSmall</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:shadowDx">?attr/shadowDxSmall</item>
+        <item name="android:shadowDy">?attr/shadowDySmall</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusSmall</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimary</item>
+        <item name="font">?attr/fontFamilyLight</item>
+    </style>
+    <style name="FeatherToolbar">
+        <item name="android:layout_height">?attr/toolbarHeight</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+    <style name="FeatherToolbarButton">
+        <item name="android:background">@drawable/feather_toolbar_button</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:shadowDx">?attr/shadowDxSmall</item>
+        <item name="android:shadowDy">?attr/shadowDySmall</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusSmall</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="font">?attr/toolbarButtonFontFamily</item>
+    </style>
+    <style name="FeatherToolbarTitle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:shadowDx">?attr/shadowDxSmall</item>
+        <item name="android:shadowDy">?attr/shadowDySmall</item>
+        <item name="android:shadowRadius">?attr/shadowRadiusSmall</item>
+        <item name="android:shadowColor">?attr/shadowColorPrimary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="font">?attr/toolbarTitleFontFamily</item>
+    </style>
+    <style name="FeatherToolsIndicator">
+        <item name="indicatorId">?attr/workspaceIndicator</item>
+    </style>
+    <style name="FeatherToolsWorkspace">
+        <item name="defaultScreen">0</item>
+        <item name="overscroll">2</item>
+        <item name="android:paddingBottom">5.0dip</item>
+    </style>
+    <style name="FeatherWheel">
+        <item name="ticks">24</item>
+        <item name="numRotations">4</item>
+    </style>
+    <style name="FeatherWheelRadio">
+        <item name="smallTicks">28</item>
+        <item name="bigTicks">5</item>
+    </style>
+    <style name="FeatherWorkspaceContainer">
+        <item name="android:paddingTop">0.5dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">#666666</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">?attr/textSizeMedium</item>
+    </style>
+    <style name="TextAppearance.Text">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">?attr/textSizeSmall</item>
+    </style>
+    <style name="TextAppearance.ThumbText">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">?attr/textSizeSmall</item>
+    </style>
+    <style name="TextAppearance.Title">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">?attr/textSizeLarge</item>
+    </style>
+</resources>

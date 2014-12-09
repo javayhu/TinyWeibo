@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither="false"
+    android:shape="rectangle" >
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:endColor="#FF191919"
+        android:startColor="#FF151515" />
+
+</shape><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/drawable/feather_main_image_background_repeater.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/drawable/feather_main_image_background_repeater.xml -->

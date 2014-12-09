@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Msc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tinyWeiboV05doc/libs/Msc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

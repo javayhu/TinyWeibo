@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/values-v14/values.xml -->
+    <eat-comment/>
+    <integer name="feather_adjust_tool_enable_3d_flip">1</integer>
+</resources>

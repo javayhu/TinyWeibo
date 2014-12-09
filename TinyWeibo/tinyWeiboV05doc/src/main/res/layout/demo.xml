@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal"
+	android:padding="@dimen/common_view_margin">
+	<TextView
+		style="@style/CategoryTextView"
+		android:id="@+id/categoty"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/common_view_margin"
+		android:visibility="gone" />
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:layout_marginBottom="@dimen/common_view_margin">
+		<EditText
+			android:id="@+id/txt_result"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textSize="@dimen/text_introduction_size"
+			android:paddingBottom="40dip"
+			android:gravity="top|left"
+			android:editable="false" />
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="@dimen/common_view_margin"
+			android:src="@drawable/tinyweibologo" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="@dimen/common_view_margin"
+			android:gravity="center"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="#FFD5D9E1"
+			android:text="@string/poster" />
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@android:id/button1"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1">
+			<requestFocus />
+		</Button>
+		<Button
+			android:id="@android:id/button2"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_marginLeft="@dimen/common_view_margin" />
+		<Button
+			android:id="@android:id/button3"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_marginLeft="@dimen/common_view_margin"
+			android:text="@string/text_setting"
+			android:visibility="gone" />
+	</LinearLayout>
+</LinearLayout>

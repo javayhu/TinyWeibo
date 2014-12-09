@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/build/intermediates/bundles/debug/res/values-small-v4/values.xml -->
+    <eat-comment/>
+    <dimen name="feather_text_size_large">22dp</dimen>
+    <dimen name="feather_text_size_medium">16dp</dimen>
+    <dimen name="feather_text_size_small">13dp</dimen>
+</resources>

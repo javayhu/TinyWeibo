@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/preference_title_iat">
+		<ListPreference
+			android:key="@string/preference_key_iat_engine"
+			android:title="@string/preference_title_iat_engine"
+			android:entries="@array/preference_entries_iat_engine"
+			android:entryValues="@array/preference_values_iat_engine"
+			android:defaultValue="@string/preference_default_iat_engine"
+			android:dialogTitle="@string/preference_dialog_title_iat_engine" />
+		<ListPreference
+			android:key="@string/preference_key_poi_province"
+			android:title="@string/preference_title_poi_province"
+			android:entries="@array/preference_values_poi_province"
+			android:entryValues="@array/preference_values_poi_province"
+			android:defaultValue="@string/preference_default_poi_province"
+			android:dialogTitle="@string/preference_dialog_title_poi_province"
+			android:enabled="false" />
+		<ListPreference
+			android:key="@string/preference_key_poi_city"
+			android:title="@string/preference_title_poi_city"
+			android:entries="@array/preference_values_poi_city"
+			android:entryValues="@array/preference_values_poi_city"
+			android:defaultValue="@string/preference_default_poi_city"
+			android:dialogTitle="@string/preference_dialog_title_poi_city"
+			android:enabled="false" />
+		<ListPreference
+			android:key="@string/preference_key_iat_rate"
+			android:title="@string/preference_title_iat_rate"
+			android:entries="@array/preference_entries_iat_rate"
+			android:entryValues="@array/preference_values_iat_rate"
+			android:defaultValue="@string/preference_default_iat_rate"
+			android:dialogTitle="@string/preference_dialog_title_iat_rate" />
+		<!-- <CheckBoxPreference android:key="@string/preference_key_iat_vad" android:title="@string/preference_title_iat_vad" 
+			android:defaultValue="true" /> -->
+	</PreferenceCategory>
+</PreferenceScreen>

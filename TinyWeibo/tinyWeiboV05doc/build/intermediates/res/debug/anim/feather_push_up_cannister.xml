@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- default animation for the cannister view in the effects panel -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/feather_cannister_in_animation_duration"
+    android:fillEnabled="true"
+    android:fillBefore="true"
+    android:fillAfter="false"
+    android:fromYDelta="100%p"
+    android:toYDelta="0" />
+<!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/androidFeather/src/main/res/anim/feather_push_up_cannister.xml --><!-- From: file:/Users/hujiawei/AndroidStudioProjects/TinyWeibo/tinyWeiboV05doc/build/intermediates/exploded-aar/TinyWeibo/androidFeather/unspecified/res/anim/feather_push_up_cannister.xml -->
