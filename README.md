@@ -41,6 +41,8 @@ An Android application for Sina Weibo
 
 0.TinyWeibo：这个是最新的全部代码，直接导入到Android Studio（1.0版本哟）中应该是没有问题的。
 
+![as](http://hujiaweibujidao.qiniudn.com/tinyweibo_as.png)
+
 你如果要使用的话，需要修改的地方
 
 (1)文件`cn.edu.csu.iteliter.util.ConstantUtil`
