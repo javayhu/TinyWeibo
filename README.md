@@ -11,14 +11,19 @@ An Android application for Sina Weibo
 今天我将原来的代码导入到最新发布的Android Studio 1.0中，修改编辑了某些地方之后，微微博最终可以再次运行啦！
 
 
-#### 运行截图
+#### 运行效果
 
 更加详细的界面运行效果看`app运行截图`文件夹
 
 ![intro](http://hujiaweibujidao.qiniudn.com/intro.jpg)
 
-
 ![main](http://hujiaweibujidao.qiniudn.com/main.jpg)
+
+运行视频
+
+<video width="480" height="800" controls>
+  <source src="http://hujiaweibujidao.qiniudn.com/tinyweibo.mp4" type="video/mp4">
+</video>
 
 
 #### 测试账号
