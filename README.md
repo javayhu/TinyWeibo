@@ -1,16 +1,32 @@
 TinyWeibo  微微博  
 =========
-[注，随着sina weibo的API变更，我已经不确定这份代码是否还可以用了，我已经不更新了，所以不用给我发邮件问我如何解决了]
-[如果有谁愿意继续将其共享下去，欢迎联系我<hujiawei090807@gmail.com>，帮我继续共享下去，谢谢]
+
+An Android application for Sina Weibo 
+
+一个强大的新浪微博 Android 客户端，采用TX的微信界面来开发Sina的微博客户端
 
 
-An Android application for Sina Weibo 一个强大的新浪微博 Android 客户端，采用TX的微信界面来开发Sina的微博客户端
+#### 最新更新 (2014-12-9)
 
-项目运行截图和简单介绍请看我的博客：http://hujiaweiyinger.diandian.com
+今天我将原来的代码导入到最新发布的Android Studio 1.0中，修改编辑了某些地方之后，微微博最终可以再次运行啦！
 
-可用的测试账号：  itelite2012@sina.com   itelite
 
-主要功能：
+#### 运行截图
+
+更加详细的界面运行效果看`app运行截图`文件夹
+
+![intro](http://hujiaweibujidao.qiniudn.com/intro.jpg)
+
+
+![main](http://hujiaweibujidao.qiniudn.com/main.jpg)
+
+
+#### 测试账号
+
+`testtinywb@sina.com`   `testtinywb`  (请不要去修改他的密码，谢谢)
+
+
+#### 主要功能
 
 1.采用OAuth2.0认证登陆；
 
@@ -22,19 +38,60 @@ An Android application for Sina Weibo 一个强大的新浪微博 Android 客户
 
 5.查找附近玩微博的人！亲，它还是可以摇的哟！
 
-由于功能比较特别，模拟器可能支持不了，所以建议真机测试，还有，最佳显示效果：480 * 800
+#### Repository中的几个文件夹介绍：
 
-Repository中的几个项目简介：
+0.TinyWeibo：这个是最新的全部代码，直接导入到Android Studio（1.0版本哟）中应该是没有问题的。
+
+你如果要使用的话，需要修改的地方
+
+(1)文件`cn.edu.csu.iteliter.util.ConstantUtil`
+
+`CONSUMER_KEY`的值改为你在微博开发平台中的应用的`APP KEY`
+
+`CONSUMER_SECRET`的值改为你在微博开发平台中的应用的`APP SECRET`
+
+`REDIRECT_URL`的值改为你在微博开发平台中的应用的授权之后的回调地址
+
+`AUTHOR_UID`的值改为你的新浪微博开发者账号的用户ID
+
+其他的常量属性字段你可以自行决定是否修改，比如你有自己的讯飞语音或者Aviary的APP KEY，你可以将里面的KEY改成自己的KEY
+
+(2)文件`weibo4j.util.WeiboConfig`
+
+在`static`静态代码块中修改下某些值
+
+`client_ID`对应你在微博开发平台中的应用的`APP KEY`
+
+`client_SERCRET`对应你在微博开发平台中的应用的`APP SECRET`
+
+`redirect_URI`对应你在微博开发平台中的应用的授权之后的回调地址
+
+```
+static {
+    props = new Properties();
+    props.setProperty("client_ID","146833241");
+    props.setProperty("client_SERCRET","a32c1f950c15ebadac9c001416b454f3");
+    props.setProperty("redirect_URI","http://www.sina.com");
+    props.setProperty("baseURL","https://api.weibo.com/2/");
+    props.setProperty("accessTokenURL","https://api.weibo.com/oauth2/access_token");
+    props.setProperty("authorizeURL","https://api.weibo.com/oauth2/authorize");
+    props.setProperty("rmURL","https://rm.api.weibo.com/2/");
+}
+```
+
+================ some old stuff ====================
 
 1. Android-Feather：这个是Aviary图片处理工具的核心代码，也是TinyWeibo引用了的library，所以必须要备着<br>
-   Aviary 官网：http://www.aviary.com
+   Aviary 官网：[http://www.aviary.com](http://www.aviary.com)
 
 2. MscDemo：这个是科大讯飞语音提供的demo代码，TinyWeibo只是参考，没有引用<br>
-   科大讯飞语音云开放平台：http://open.voicecloud.cn/
+   科大讯飞语音云开放平台：[http://open.voicecloud.cn/](http://open.voicecloud.cn/)
 
-3. TinyWeiboV0.5Doc：这个是最终给评委的包含了注释的全部源代码
+3. TinyWeiboV0.5Doc：这个是最终给评委的包含了注释的全部源代码，也可以直接看TinyWeibo中的，里面的注释依然在
 
-4. weibo---：下面的都是新浪微博的SDK，这个都是2012年12月的最新的SDK<br>
-   新浪微博接口文档：http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2<br>
-   新浪微博API测试工具：http://open.weibo.com/tools/console<br>
+4. weibo---：下面的都是新浪微博的SDK，这个都是2012年12月的最新的SDK，这个项目中我使用两个SDK，包括新浪微博的Android SDK和Java SDK。
+
+   新浪微博接口文档：[http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2](http://open.weibo.com/wiki/API%E6%96%87%E6%A1%A3_V2)
+
+   新浪微博API测试工具：[http://open.weibo.com/tools/console](http://open.weibo.com/tools/console)
 
