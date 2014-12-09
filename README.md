@@ -10,6 +10,8 @@ An Android application for Sina Weibo
 
 今天我将原来的代码导入到最新发布的Android Studio 1.0中，修改编辑了某些地方之后，微微博最终可以再次运行啦！
 
+[点击下载APK文件](http://hujiaweibujidao.qiniudn.com/TinyWeibo.apk)
+
 
 #### 运行效果
 
